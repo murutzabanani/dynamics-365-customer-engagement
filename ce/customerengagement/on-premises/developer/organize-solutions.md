@@ -3,7 +3,7 @@ title: "Organize your solutions (Developer Guide for Dynamics 365 Customer Engag
 description: "This document lists down some strategies to organize your solutions"
 ms.custom: 
 ms.date: 04/02/2020
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -86,3 +86,6 @@ Before you create solutions, take some time to plan ahead. For example, think ab
 ### See also  
  [Organize your team to develop solutions](organize-team-develop-solutions.md)   
  [Planning for Solution Development](plan-solution-development.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

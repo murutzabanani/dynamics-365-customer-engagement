@@ -3,7 +3,7 @@ title: "Image attributes (Developer Guide for Dynamics 365 Customer Engagement (
 description: "Learn about image attributes that include image data witht in the application, and supporting attributes, Retrieving image data, and Uploading image data."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -95,3 +95,6 @@ Entity records that include image data provide a unique experience within the ap
  [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
  [Introduction to entity attributes in Dynamics 365 Customer Engagement (on-premises)](introduction-entity-attributes.md)   
  [Sample: Set and retrieve entity images](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

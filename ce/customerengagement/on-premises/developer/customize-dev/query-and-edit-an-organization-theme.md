@@ -3,7 +3,7 @@ title: "Query and edit an organization theme | MicrosoftDocs"
 description: "Learn about defining and applying visual themes for an organization. This provides a supported way to apply an organization’s logo and color choices to the application. "
 ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -121,3 +121,6 @@ OData-Version: 4.0
  [Theme Entity](../entities/theme.md)   
  [Create a theme](../../customize/change-color-scheme-add-logo-match-organizations-brand.md)  
  [Developers guide to customization for Microsoft Dynamics 365 Customer Engagement](customize-applications.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

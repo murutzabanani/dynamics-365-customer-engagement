@@ -3,7 +3,7 @@ title: "Sample: Update a connection role (early bound) (Developer Guide for Dyna
 description: "The sample demonstrates how to modify the properties of the connection role."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -54,3 +54,5 @@ The `Update` message updates the connection role.
 ### Clean up
 
 Displays an option to delete all the data created in the sample. The deletion is optional in case you want to examine the data created by the sample. You can manually delete the data to achieve same results.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

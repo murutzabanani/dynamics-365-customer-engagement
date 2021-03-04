@@ -3,7 +3,7 @@ title: "Sample: Book an appointment | MicrosoftDocs"
 description: "Sample demonstrates how to book or schedule an appointment by using the BookRequest message."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -53,3 +53,6 @@ Creates the appointment instance using the [BookRequest](https://docs.microsoft.
 ### Clean up
 
 Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

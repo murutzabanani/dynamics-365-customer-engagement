@@ -3,7 +3,7 @@ title: "Supported extensions (Developer Guide for Dynamics 365 Customer Engageme
 description: "You can customize  Dynamics 365 Customer Engagement (on-premises) by using tools that are available in the Customer Engagement web application or that are described in the Dynamics 365 Customer Engagement (on-premises) SDK. These customizations are supported and can be upgraded. Customizations made using methods other than those described here are unsupported and could cause problems during updates and upgrades to Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 01/25/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -188,3 +188,6 @@ The following supported tasks require this procedure:
  [Choose your development style for managed code](choose-development-style.md)   
  [Write Code for Dynamics 365 Customer Engagement (on-premises)(Web Services)](extend-dynamics-365-server.md)   
  [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

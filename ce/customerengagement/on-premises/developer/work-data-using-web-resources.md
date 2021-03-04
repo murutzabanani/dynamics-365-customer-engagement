@@ -3,7 +3,7 @@ title: "Work with Dynamics 365 Customer Engagement (on-premises) data using web 
 description: "This doc explains how you can use JavaScript web resources to access Dynamics 365 Customer Engagement (on-premises) data from within the application."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -52,3 +52,6 @@ You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource
  [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)  
 
  [Client API Reference](clientapi/reference.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

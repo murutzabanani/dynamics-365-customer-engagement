@@ -3,7 +3,7 @@ title: "Understand how managed solutions are merged (Developer Guide for Dynamic
 description: "To avoid multiple installed solutions from interfering with one another, follow best practices while constructing a solution"
 ms.custom: 
 ms.date: 04/02/2020
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -62,4 +62,7 @@ When you prepare your managed solution to be installed, remember that an organiz
  [Use Managed Properties](use-managed-properties.md)   
  [Package and Distribute Extensions with Dynamics 365 Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
  [Customize Entity Forms in Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-entity-forms.md)   
- [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)
+ [Change Application Navigation using the SiteMap](customize-dev/change-application-navigation-using-sitemap.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

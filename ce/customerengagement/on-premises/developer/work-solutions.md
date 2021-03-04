@@ -2,7 +2,7 @@
 title: "Work with solutions (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
 ms.date: 04/02/2020
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -305,3 +305,5 @@ This topic presents specific programming tasks included in [Sample: Work With So
  [Sample: Work With Solutions](sample-work-solutions.md)   
  [Sample: Detect Solution Dependencies](sample-detect-solution-dependencies.md)
  
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,6 +10,14 @@ ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-msdyn_forecastinstance
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
+
 ---
 
 # View and manage underlying opportunities 
@@ -35,35 +43,30 @@ You can view and edit underlying opportunities in two ways:
 
 ## View and edit in a table view
 
-1.	Open a forecast. In this example, we're opening **Kenny's Org FY 2020 Forecast** for current quarter **FY2020 Q1**.
+With the enhanced grid, you can view and edit related entity records also. The following screen is an example of the enhanced grid view of underlying records:   
+
+> [!div class="mx-imgBorder"]
+> ![View underlying opportunity grid](media/forecast-view-grid-group-option.png "View underlying opportunity grid")
+
+1. **General information**: You can identify whom the underlying records belongs to, and by their team or individual. Also, you can see the category of underlying records, such as won, committed, and pipeline along with its total value.
+
+2. **View selector**: You can change the view of these records. By default, the view that was selected when the forecast was configured is displayed.
+
+3. **Group by**: You can view and edit the records of related entity. Select the **Group by** option and choose a valid related attribute to view appropriate related entity records. 
+
+    For example, opportunity split forecast is created based on the data model as illustrated below, where, opportunity split is the rollup entity and opportunity is the related entity.
+
+    By default, when users open the underlying records grid the opportunities in the opportunity split (rollup entity) are listed. As the records of opportunity split are derived from opportunity (related entity), users might want to edit the records directly in opportunity (related entity). Therefore, users must select attributes of opportunity, which is the related entity in this data model.
+
+    To support such scenarios, the **Group by** drop-down lists the related entity attributes of opportunity split (rollup entity), so that users can select relevant opportunity attribute, and then view and edit related opportunity records.    
 
     > [!div class="mx-imgBorder"]
-    > ![View forecast grid](media/forecast-view-forecast-grid.png "View forecast grid")
+    > ![Opportunity split data model](media/forecast-opportunity-split-data-model.png "Opportunity split data model")
 
-2.	Select a row or a cell for any level of the hierarchy for which you want to see underlying opportunities. 
-
-    In this example, we're selecting **Alyce Durham**. Because she's a manager, all the underlying opportunities that are contributing to her team's forecast are listed. This view is opened as a table, by default.
+    The following image is an example when you choose to group the records based on opportunity attribute from the related opportunity entity of an opportunity split forecast.
 
     > [!div class="mx-imgBorder"]
-    > ![View forecast grid](media/forecast-view-underlying-opportunities.png "View forecast grid")
-
-    You can identify whether the selected opportunities belong to a team, an individual, a single cell value, or a full row by looking at the table heading. The format of the heading is described in the following table.
-
-    | Heading format | Description |
-    |----------------|-------------|
-    | Username (Group) – All opportunities |All the opportunities across different forecast categories that the selected user and that user's team own. |
-    | Username - All opportunities | All the opportunities across different forecast categories that the selected user owns. |
-    | Username (Group) – Column name | The opportunities that the selected user and that user's team own for the selected forecast category. |
-    | Username – Column name | All the opportunities that the selected user owns for the selected forecast category. |.
-
-    You can change the view of these opportunities by using the view selector. By default, the view that was selected when the forecast was configured is displayed.
-
-3.	To edit an opportunity, select the attribute that you want to edit, such as **Topic**, **Est. Revenue**, **Actual Revenue**, or **Forecast category**.
-
-4.	After you edit the opportunity, press **Tab** or click outside the field. The modifications are saved, the opportunity is updated in Dynamics 365 Sales, and the forecast amounts instantly reflect the change.
-
-    > [!NOTE]
-    > You can open an opportunity by double-clicking in the non-editable space of the row. The opportunity opens in a new page, where you can edit and save the opportunity.
+    > ![Opportunity split group by example](media/forecast-opportunity-split-groupby-example.png "Opportunity split group by example")
 
 
 ## View and edit in a kanban view
@@ -112,3 +115,6 @@ You can view and edit underlying opportunities in two ways:
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 [View a forecast](view-forecasts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: "Delete or end a recurring appointment series or instance | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -53,3 +53,6 @@ You can delete a recurring appointment series, delete an instance in the series,
  [Link custom attributes of the recurring appointment master and appointment entities](link-custom-attributes-recurring-master-appointment-entities.md)   
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a Recurring Appointment](sample-create-retrieve-update-delete-recurring-appointment.md)   
  [Sample: End a Recurring Appointment](sample-end-recurring-appointment-series.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -12,7 +12,7 @@ ms.assetid: 3c88b87d-e178-41ac-bd44-f7aa790677b9
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 22
@@ -62,3 +62,5 @@ The `AssignRequest` method assigns the visualization or chart to the newly creat
 ### Clean up
 
 Display an option to delete the sample data in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

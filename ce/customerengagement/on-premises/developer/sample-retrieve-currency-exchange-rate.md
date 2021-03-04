@@ -3,7 +3,7 @@ title: "Sample: Retrieve currency exchange rate (Developer Guide for Dynamics 36
 description: "The sample demonstrates how to create a new currency, and how to retrieve and display the currency exchange rate relative to the organization’s base currency."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -49,3 +49,6 @@ The `RetrieveExchangeRateRequest` message retrieves the exchange rate against th
 ### Clean up
 
 Display an option to delete the sample data created  in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

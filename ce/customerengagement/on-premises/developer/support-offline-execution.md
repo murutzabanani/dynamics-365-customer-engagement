@@ -3,7 +3,7 @@ title: "Support offline execution with Dynamics 365 for Microsoft Office (Develo
 description: "Add support to your plug-in for execution by the Dynamics 365 for Microsoft Office Outlook with Offline Access while the client is offline."
 ms.custom: on-premise
 ms.date: 1/22/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -44,3 +44,6 @@ General information on debugging plug-ins can be found in [Debug a plug-In](debu
 [Plug-in Development](plugin-development.md)   
 [Supported messages and entities for plug-ins](supported-messages-entities-plugin.md)
 [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

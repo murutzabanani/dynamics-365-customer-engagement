@@ -12,7 +12,7 @@ ms.assetid: 1d0d6df3-e905-4b63-beaa-3f72f73bfa17
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 topic-status: Drafting
@@ -54,3 +54,5 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Clean up
 
 Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

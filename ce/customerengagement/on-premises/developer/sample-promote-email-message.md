@@ -3,7 +3,7 @@ title: "Sample: Promote an email message | MicrosoftDocs"
 description: "This sample shows how to create an email activity instance from the specified email message in Dynamics 365 Customer Engagement by using the DeliverPromoteEmailRequest message"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -52,3 +52,5 @@ Checks for the current version of the org.
 ### Clean up
 
 Display an option to delete the records created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

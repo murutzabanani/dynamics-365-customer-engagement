@@ -2,7 +2,7 @@
 title: "Create, install, and update a managed solution (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
 ms.date: 04/02/2020
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -86,3 +86,5 @@ You create a managed solution by exporting an unmanaged solution as a managed so
  [Uninstall or Delete a solution](uninstall-delete-solution.md)   
  [Customization Solutions File Schema](customize-dev/customization-solutions-file-schema.md)
  
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

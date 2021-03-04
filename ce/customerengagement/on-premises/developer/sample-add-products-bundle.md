@@ -3,7 +3,7 @@ title: "Sample: Add products to a bundle (Developer Guide for Dynamics 365 Custo
 description: "Sample demonstrates how to add products to a product bundle."
 ms.custom: 
 ms.date: 06/11/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -36,3 +36,6 @@ This sample code is for Dynamics 365 Customer Engagement (on-premises). [Downloa
 ### See also  
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

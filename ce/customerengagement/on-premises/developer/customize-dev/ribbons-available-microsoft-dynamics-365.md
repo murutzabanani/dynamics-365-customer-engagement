@@ -3,7 +3,7 @@ title: "Ribbons available in Microsoft Dynamics 365 Customer Engagement (Develop
 description: "The topic describes where ribbons are defined and modified in Dynamics 365 Customer Engagement (on-premises) Customer Engagement."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -179,3 +179,6 @@ This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dyna
 ### See also  
  [Customize the Ribbon for Microsoft Dynamics 365 Customer Engagement](customize-commands-ribbon.md)   
  [Command bar or ribbon presentation](command-bar-ribbon-presentation.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

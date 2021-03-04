@@ -3,7 +3,7 @@ title: "Publish request schema | MicrosoftDocs"
 description: "The following is the schema definition for the PublishXmlRequest message."
 ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -116,3 +116,6 @@ The following is the schema definition for the <xref:Microsoft.Crm.Sdk.Messages.
  <xref:Microsoft.Crm.Sdk.Messages.PublishXmlRequest>   
  [Publish Customizations](publish-customizations.md)   
  [Schemas Used in Microsoft Dynamics 365 Customer Engagement](../schemas-used-dynamics-365.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

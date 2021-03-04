@@ -3,7 +3,7 @@ title: "Define ribbon enable rules (Developer Guide for Dynamics 365 Customer En
 description: "Learn about defining specific rules to control when the ribbon elements are enabled during configuration of ribbon elements. "
 ms.custom: 
 ms.date: 02/08/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -176,3 +176,6 @@ Uses the `<ValueRule>` element. Use this rule to check the value of a specific f
  [Customize commands and the ribbon](customize-commands-ribbon.md)   
  [Define Ribbon Commands](define-ribbon-commands.md)   
  [Define Ribbon Display Rules](define-ribbon-display-rules.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: "Key to entity diagrams (Developer Guide for Dynamics 365 Customer Engage
 description: "Learn about key to entity diagrams to simplify the diagrams and color coding concepts. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -33,3 +33,6 @@ The following is the key to the entity model diagrams shown in the Dynamics 365 
 ### See also  
  [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
  [Sample: Assign a Record to a Team](sample-assign-record-team.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

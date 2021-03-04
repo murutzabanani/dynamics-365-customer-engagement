@@ -1,17 +1,19 @@
 ---
-title: "Hosting your custom event website on Azure | MicrosoftDocs"
-description: "Step-by-step tutorial on how to host your custom event website on Azure"
-ms.custom:
-  - dyn365-developer
-  - dyn365-marketing
+title: "Hosting your custom event website on Azure (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Step-by-step tutorial on how to host your custom event website on Azure."
 ms.date: 06/12/2019
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - "marketing"
-ms.topic: "article"
-author: Nkrb
-ms.author: nabuthuk
-manager: kvivek
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
 # Host your custom event website on Azure
@@ -22,7 +24,7 @@ This topic walks you through the process of hosting your custom event website on
 
 1. Download the [source code](https://go.microsoft.com/fwlink/?linkid=2042224) to customize the provided demo website.
 2. Install [Node.js](https://nodejs.org/en/download/) version 10.x or higher.
-3. Download the [Azure storage explorer](https://docs.microsoft.com/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
+3. Download the [Azure Storage Explorer](https://docs.microsoft.com/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
 
 ## Step 1:  Create an Azure storage account
 
@@ -92,3 +94,6 @@ To use event management public API, you need a web application token. The web ap
 ### See also
 
 [Build and host custom event website](event-management-web-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

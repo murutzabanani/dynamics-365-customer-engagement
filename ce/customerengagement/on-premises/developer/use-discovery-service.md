@@ -3,7 +3,7 @@ title: "Use the Dynamics 365 Customer Engagement (on-premises) Discovery service
 description: "In a multi-tenant environment like Dynamics 365 Customer Engagement (on-premises), the Discovery web service helps determine which organizations a user is a member of."
 ms.custom: 
 ms.date: 09/05/2019
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -32,3 +32,6 @@ The Discovery service is accessed through the OData V4 RESTful API or the Organi
  [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)<br />
  [Use Dynamics 365 Customer Engagement Web API](webapi/index.md)<br />
  [Use Dynamics 365 Customer Engagement Organization Service](org-service/index.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

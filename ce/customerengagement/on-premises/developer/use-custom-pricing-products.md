@@ -3,7 +3,7 @@ title: "Use custom pricing for products (Developer Guide for Dynamics 365 Custom
 description: "Use the CalculatePrice message to define custom pricing for products in opportunities, quotes, orders and invoices."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -41,3 +41,6 @@ The pricing engine in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)
  [Product pricing methods](product-pricing-methods.md)   
  [Sample: Calculate Price plug-in](sample-calculate-price-plugin.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

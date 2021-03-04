@@ -4,7 +4,7 @@ description: "Dynamics 365 Customer Engagement client applications include the w
 ms.custom: 
   - dyn365-deflc
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -68,3 +68,6 @@ search.audienceType:
  [Integrate Microsoft Dynamics 365 Customer Engagement with SharePoint](../integration-dev/integrate-sharepoint.md)  
   
  [Integrate Microsoft Dynamics 365 Customer Engagement with OneNote](../integration-dev/integrate-onenote.md) 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

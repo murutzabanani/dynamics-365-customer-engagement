@@ -33,7 +33,7 @@ Follow the steps in this [KB article](https://support.microsoft.com/help/4468755
 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/server-side-sync-failures-dashboard.png "Server-side sync failures dashboard")
+> ![Server-side sync failures dashboard](media/server-side-sync-failures-dashboard.png "Server-side sync failures dashboard")
 
  
 <a name="BKMK_PerformanceDashboard"></a>   
@@ -249,3 +249,6 @@ This is a known issue and is not supported. If the organizer is someone outside 
 [Best practices and things to know about server-side synchronization](../admin/best-practices-server-side-synchronization.md)   
 [{Hidden Gem}Understanding Server Side sync Performance Dashboard](https://dynamicsofdynamicscrm.wordpress.com/2015/07/27/hidden-gemunderstanding-server-side-sync-performance-dashboard/)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

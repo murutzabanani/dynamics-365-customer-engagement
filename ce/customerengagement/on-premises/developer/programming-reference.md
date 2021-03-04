@@ -3,7 +3,7 @@ title: "Programming reference for Dynamics 365 Customer Engagement (on-premises)
 description: "Contains reference documentation of the public assemblies, web services, schemas, and error codes that constitute the Developer Guide (SDK) for Dynamics 365 Customer Engagement (on-premises). "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -40,3 +40,6 @@ This section contains reference documentation of the public assemblies, web serv
 ## Related Sections  
  [Get started with developement for Dynamcis 365 Customer Engagement (on-premises)](get-started-sdk.md)<br />
  [Sample code directory](sample-code-directory.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

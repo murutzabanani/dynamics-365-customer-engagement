@@ -3,7 +3,7 @@ title: "Create a dashboard (Developer Guide for Dynamics 365 Customer Engagement
 description: "Organization-owned dashboards can be created by using the Dynamics 365 Customer Engagement web services (SDK) or by customizing the entity form in Dynamics 365 Customer Engagement by editing the customizations.xml file."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -110,3 +110,6 @@ Organization-owned dashboards can be created by using the [!INCLUDE[cc-dyn365-ce
  [Sample dashboards](sample-dashboards.md)   
  [Sample: Create, Retrieve, Update and Delete (CRUD) a Dashboard](sample-create-retrieve-update-delete-dashboard.md)   
  [Customize Entity Forms in Microsoft Dynamics 365 Customer Engagement](customize-entity-forms.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

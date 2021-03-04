@@ -3,7 +3,7 @@ title: "Sample data for Dynamics 365 Customer Engagement (on-premises) | Microso
 description: "Learn about installing and uninstalling sample data programmatically for an organization using InstallSampleDataRequest and UninstallSampleDataRequest."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -27,3 +27,6 @@ You can install and uninstall sample data programmatically for an organization u
  [Sample: Install or Remove Sample Data](sample-install-remove-sample-data.md)   
  [Write Code for Dynamics 365 Customer Engagement (on-premises)](extend-dynamics-365-server.md)   
  [Use IOrganizationService for Your Organization](org-service/use-organization-service-read-write-data-metadata.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

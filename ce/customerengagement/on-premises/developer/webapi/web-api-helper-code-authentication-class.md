@@ -3,7 +3,7 @@ title: "Web API Helper code: Authentication class (Developer Guide for Dynamics 
 description: "Authentication class assists in establishing a validated connection to a Dynamics 365 Customer Engagement Web service"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -340,3 +340,6 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
  [Use the Dynamics 365 Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
  [Helper code: Configuration class](web-api-helper-code-configuration-classes.md)   
  [Helper code: CrmHttpResponseException class](web-api-helper-code-crmhttpresponseexception-class.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

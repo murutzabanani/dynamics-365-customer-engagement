@@ -3,7 +3,7 @@ title: "Social entities (Developer Guide for Dynamics 365 Customer Engagement)| 
 description: "Learn about social entites that offers social Activity to track social posts, social profile to track a contact’s presence in social media, and convert the social posts to case"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -50,3 +50,6 @@ Use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] social care gene
  [Model Your Business Data](model-business-data.md)  
   
  [Sample Application Using Microsoft Dynamics CRM Social Care Framework](https://msdn.microsoft.com/library/dn744885.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

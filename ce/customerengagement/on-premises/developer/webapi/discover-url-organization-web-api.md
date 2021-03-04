@@ -3,7 +3,7 @@ title: "Discover the URL for your organization using the Web API (Developer Guid
 description: "Learn how you can use the Web API to discover at runtime the organizations, or instances that the logged-on user belongs to"
 ms.custom: 
 ms.date: 04/24/2019
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 2db13b4e-0e7c-4f25-b7be-70a612fb96e2
 caps.latest.revision: 18
-author: susikka
-ms.author: susikka
+author: phecke
+ms.author: pehecke
 manager: shujoshi
 search.audienceType: 
   - developer
@@ -104,3 +104,6 @@ The Discovery service RESTful API supports the CORS standard for cross-origin ac
 ## See also
 
 [Web API Global Discovery Service sample (C#)](/powerapps/developer/common-data-service/webapi/samples/global-discovery-service-csharp)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

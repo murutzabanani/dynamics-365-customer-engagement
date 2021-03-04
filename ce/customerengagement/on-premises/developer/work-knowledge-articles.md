@@ -3,7 +3,7 @@ title: "Work with knowledge articles (Developer Guide for Dynamics 365 Customer 
 description: "The section provides information about working with the new native Dynamics 365 Customer Engagement (on-premises) knowledge management capabilities."
 ms.custom: 
 ms.date: 05/15/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -207,3 +207,6 @@ Use the following for help with migration:
  - [KnowledgeBaseRecord Entity](entities/knowledgebaserecord.md)
  - [LanguageLocale Entity](entities/languagelocale.md)
  - [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#bkmk_CrmKMEntities) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

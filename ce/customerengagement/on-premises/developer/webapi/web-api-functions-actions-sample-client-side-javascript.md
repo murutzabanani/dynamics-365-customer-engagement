@@ -3,7 +3,7 @@ title: "Web API Functions and Actions Sample (Client-side JavaScript) (Developer
 description: "This sample demonstrates how to perform bound and unbound functions and actions, including custom actions, using the Dynamics 365 Customer Engagement Web API and client-side JavaScript"
 ms.custom: 
 ms.date: 12/24/2018
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -723,3 +723,6 @@ Sdk.createAccountWithOpportunityToWin = function () {
  [Web API Basic Operations Sample (Client-side JavaScript)](web-api-basic-operations-sample-client-side-javascript.md)   
  [Web API Query Data Sample (Client-side JavaScript)](web-api-query-data-sample-client-side-javascript.md)   
  [Web API Conditional Operations Sample (Client-side JavaScript)](web-api-conditional-operations-sample-client-side-javascript.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

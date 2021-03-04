@@ -2,7 +2,7 @@
 title: "Sample: Use Dynamics 365 for Outlook methods (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: 
 ms.date: 01/28/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -56,3 +56,6 @@ Display an option to delete the sample data that is created in [Setup](#setup). 
  <xref:Microsoft.Crm.Outlook.Sdk.CrmOutlookService>   
  <xref:Microsoft.Crm.Outlook.Sdk.CrmOutlookService.GoOnline>   
  <xref:Microsoft.Crm.Outlook.Sdk.CrmOutlookService.GoOffline>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

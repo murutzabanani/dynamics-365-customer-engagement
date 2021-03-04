@@ -3,7 +3,7 @@ title: "Calculated and rollup attributes (Developer Guide for Dynamics 365 Custo
 description: "Learn about common elements and characterstics, calculated attributes, rollup attributes, retrieve a calculated rollup field value immediately, and SourceTypeMasks enumeration."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -189,3 +189,6 @@ search.audienceType:
  [Introduction to entity attributes](introduction-to-entity-attributes.md)   
  [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx)   
  [Define rollup fields](https://docs.microsoft.com/dynamics365/customer-engagement/customize/define-rollup-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

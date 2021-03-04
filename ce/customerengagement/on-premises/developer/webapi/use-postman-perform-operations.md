@@ -3,7 +3,7 @@ title: "Use Postman to perform operations with the Web API (Developer Guide for 
 description: "Learn how to compose and send Web API requests using Postman."
 ms.custom: 
 ms.date: 04/15/2019
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: AB50128B-D8E3-47A3-A0F8-9594EF6B7022
 caps.latest.revision: 7
-author: susikka
-ms.author: susikka
+author: phecke
+ms.author: pehecke
 manager: shujoshi
 search.audienceType: 
   - developer
@@ -29,3 +29,6 @@ The operations that you can perform using the Web API are same for the online an
 ## See also
 
 [What is Power Apps?](/powerapps/powerapps-overview)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

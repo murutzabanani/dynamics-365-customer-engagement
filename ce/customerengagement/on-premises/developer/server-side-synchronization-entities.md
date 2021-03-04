@@ -3,7 +3,7 @@ title: "Server-side synchronization entities (Developer Guide for Dynamics 365 C
 description: "In Dynamics 365 Customer Engagement (on-premises), server-side synchronization provides an interface between Dynamics 365 Customer Engagement and one or more Exchange servers or POP3 servers for incoming email, and one or more SMTP or Exchange servers for outgoing email"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -65,3 +65,6 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], se
  [Sales Literature Entities](sales-literature-entities.md)  
   
  [Schedule and Appointment Entities](schedule-appointment-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

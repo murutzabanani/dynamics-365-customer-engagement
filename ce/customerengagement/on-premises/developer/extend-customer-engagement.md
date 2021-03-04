@@ -3,7 +3,7 @@ title: "Extend Dynamics 365 Customer Engagement (on-premises) (Developer Guide f
 description: "Understand the different ways you can write code to change how a Dynamics 365 Customer Engagement (on-premises) system works, build your own application using it, or integrate the system with other products."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -83,3 +83,5 @@ When you develop an application that uses the Dynamics 365 Server, you use Web s
 [Manage your deployment](manage-deployment.md)<br />
 [Sample code directory](sample-code-directory.md)<br />
 [Programming Reference](programming-reference.md)<br />
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

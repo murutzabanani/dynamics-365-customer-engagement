@@ -3,7 +3,7 @@ title: "Use the Category entity to categorize records (Developer Guide for Dynam
 description: "Learn about categorizing the entity records using category entity."
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -38,3 +38,6 @@ Categorizing entity records helps you tag the records so that you can easily sea
 ### See also  
  [Work with knowledge articles in Customer Engagement (on-premises)](work-knowledge-articles.md)   
  [Service entities in Customer Engagement (on-premises)](service-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

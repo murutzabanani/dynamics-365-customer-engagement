@@ -3,7 +3,7 @@ title: "Customize entity views (Developer Guide for Dynamics 365 Customer Engage
 description: "Learn about customizing the entity views."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -205,3 +205,6 @@ function displayIconTooltip(rowData, userLCID) {
  [Customize Entity Forms in Microsoft Dynamics 365 Customer Engagement](customize-entity-forms.md)   
  [Customize Global Option Sets in Microsoft Dynamics 365 Customer Engagement](../org-service/customize-global-option-sets.md)   
  [Customize Dynamics 365 Customer Engagement](customize-applications.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

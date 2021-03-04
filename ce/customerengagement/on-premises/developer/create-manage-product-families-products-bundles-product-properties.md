@@ -3,7 +3,7 @@ title: "Create and manage product families, products, bundles, and product prope
 description: "Supports hierarchical organization of the product catalog through the creation and management products and bundles under a product family, defining related products, and adding properties (attributes) to the parent product family."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -326,3 +326,6 @@ Console.WriteLine("\nCreated clone product: {0}", retrievedProduct.Name);
  [Sample: Clone product records](sample-clone-product-records.md)   
  [Sample: Add products to a bundle](sample-add-products-bundle.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

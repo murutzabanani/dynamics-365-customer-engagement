@@ -3,7 +3,7 @@ title: "Configure data import (Developer Guide for Dynamics 365 Customer Engagem
 description: "Configuration information that is required for importing data is contained in the data import entity and the import source file entity. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -54,3 +54,6 @@ The configuration information that is required for importing data is contained i
  [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
  [Blog Post: How to Import attachments programmatically](https://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)   
  [Run Data Import](run-data-import.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

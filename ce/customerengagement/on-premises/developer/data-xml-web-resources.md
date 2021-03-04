@@ -3,7 +3,7 @@ title: "Data (XML) Web resources (Developer Guide for Dynamics 365 Customer Enga
 description: "Learn about using data (XML) Web resources to save and access data."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -42,3 +42,6 @@ Use Data (XML) Web resources to save and access data.
  [Using Image (JPG, PNG, GIF) Web Resources](image-web-resources.md)   
  [Using Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)   
  [Using Stylesheet (XSL) Web Resources](stylesheet-xsl-web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

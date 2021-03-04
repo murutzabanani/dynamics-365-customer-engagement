@@ -3,7 +3,7 @@ title: "Connect to Yammer (Developer Guide for Dynamics 365 Customer Engagement 
 description: "Read about how you can connect Dynamics 365 Customer Engagement (on-premises) to Yammer."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -63,3 +63,6 @@ To enhance your organization’s collaboration, use [!INCLUDE[pn_microsoftcrm](.
  [Post Entity](entities/post.md)   
  [Collaborate and communicate with Yammer](https://go.microsoft.com/fwlink/p/?LinkId=526704)   
  [Connect Microsoft Dynamics 365 Customer Engagement to Yammer](https://go.microsoft.com/fwlink/p/?LinkId=526705)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

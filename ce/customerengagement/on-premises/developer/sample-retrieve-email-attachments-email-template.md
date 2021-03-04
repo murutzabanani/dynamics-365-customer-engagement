@@ -3,7 +3,7 @@ title: "Sample: Retrieve email attachments for an email template (Developer Guid
 description: "This sample shows how to retrieve email attachments associated with an email template by using the IOrganizationService.QueryBase) method"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -49,3 +49,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Demonstrate
 
 The `QueryExpression` retrieves all the attachments.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

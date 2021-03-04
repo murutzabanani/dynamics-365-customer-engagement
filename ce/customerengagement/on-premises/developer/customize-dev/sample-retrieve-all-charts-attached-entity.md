@@ -12,7 +12,7 @@ ms.assetid: 4ee28c9c-4d78-47b1-911b-782527bcda45
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 28
@@ -54,3 +54,6 @@ The `newSavedQuery` method creates a query for retrieving all organization-owned
 ### Clean up
 
 This sample creates no records. No cleanup is required.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

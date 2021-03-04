@@ -3,7 +3,7 @@ title: "Create your own actions (Developer Guide for Dynamics 365 Customer Engag
 description: "Actions are custom messages that help in extending functionality of Dynamics 365 Customer Engagement (on-premises). Learn more about how to create your own actions"
 ms.custom: 
 ms.date: 01/10/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -244,3 +244,6 @@ An action can be executed using the Web API just like any system action. [!INCLU
  [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)   
  [Write Workflows to Automate Business Processes](automate-business-processes-customer-engagement.md)   
  [Customize your system](https://technet.microsoft.com/library/dn531158.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

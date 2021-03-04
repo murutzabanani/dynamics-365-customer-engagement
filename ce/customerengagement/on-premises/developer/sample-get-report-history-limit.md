@@ -3,7 +3,7 @@ title: "Sample: Get report history limit | MicrosoftDocs"
 description: "This sample shows how to get report history limit"
 ms.custom: 
 ms.date: 01/28/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -50,3 +50,5 @@ Checks for the current version of the org.
 ### Clean up
 
 No clean up is required for this sample.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

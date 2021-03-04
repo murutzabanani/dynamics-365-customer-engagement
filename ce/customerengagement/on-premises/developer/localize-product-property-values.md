@@ -3,7 +3,7 @@ title: "Localize product property values (Developer Guide for Dynamics 365 Custo
 description: "Add, update, retrieve, query, and translate the localized values for product name attributes."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -115,3 +115,6 @@ Product names may be localized for different regions. With Dynamics 365 Customer
  [Product catalog entities](product-catalog-entities.md)   
  [Translate customized entity and attribute text](customize-labels-support-multiple-languages.md#BKMK_TranslatingCustomizedEntityAndAttributeText)   
  [Translate product names and properties into multiple languages](https://go.microsoft.com/fwlink/p/?LinkId=512440)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

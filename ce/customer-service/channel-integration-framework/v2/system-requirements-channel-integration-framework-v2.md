@@ -1,13 +1,12 @@
 ---
 title: "System requirements of Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: "Learn about the system requirements of Dynamics 365 Channel Integration Framework and how to get started using it."
-author: susikka
-ms.author: susikka
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 11/02/2020
 ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -21,13 +20,13 @@ This topic describes the system requirements of Dynamics 365 Channel Integration
 
 Dynamics 365 (online) version 9.1 and higher versions.
 
-## Omnichannel for Dynamics 365 Customer Service
+## Omnichannel for Dynamics 365 Customer Service or Customer Service Workspace
 
-To have multisession capabilities, your organization must use Omnichannel for Customer Service.
+To have multisession capabilities, your organization must use a multi-session app, such as Omnichannel for Customer Service or Customer Service Workspace.
 
 ## Supported browsers
 
-- Microsoft Edge
+- Chromium-based Microsoft Edge
 
 - Google Chrome
 
@@ -47,3 +46,6 @@ All the URLs must be secure (HTTPS).
 [Overview of Dynamics 365 Channel Integration Framework](../v2/overview-channel-integration-framework.md)
 
 [FAQs](../faq-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

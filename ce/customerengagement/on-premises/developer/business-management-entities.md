@@ -3,7 +3,7 @@ title: "Business management entities (Developer Guide for Dynamics 365 Customer 
 description: "Business management entities help you manage the Dynamics 365 Customer Engagement application and includes creating the relationships between entity records, setting up queues, and defining the fiscal periods for the organization."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -51,3 +51,6 @@ The entities described in this section help you effectively manage the [!INCLUDE
   
 ## Related Sections  
  [Model Your Business Data](model-business-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

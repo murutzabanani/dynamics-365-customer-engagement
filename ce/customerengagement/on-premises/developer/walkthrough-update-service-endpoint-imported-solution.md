@@ -3,7 +3,7 @@ title: "Walkthrough: Update a service endpoint imported from a solution (Develop
 description: "The walkthrough demonstrates updating a service endpoint imported from a solution."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -43,3 +43,6 @@ An extra step is required after importing into an organization a solution contai
 ### See also  
  [Azure extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)   
  [Service Bus authentication and authorization](https://azure.microsoft.com/documentation/articles/service-bus-authentication-and-authorization/)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

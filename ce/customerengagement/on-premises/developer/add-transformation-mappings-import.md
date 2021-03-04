@@ -3,7 +3,7 @@ title: "Add transformation mappings for import (Developer Guide for Dynamics 365
 description: "Transformation mapping enables optional modification of source data before importation."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -209,3 +209,6 @@ Use transformation mapping to modify data before importing it. For example, spli
  [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
  [Create data maps for import](create-data-maps-for-import.md)   
  [Configure Data Import](configure-data-import.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

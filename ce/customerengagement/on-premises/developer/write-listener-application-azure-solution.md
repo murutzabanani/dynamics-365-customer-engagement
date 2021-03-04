@@ -3,7 +3,7 @@ title: "Write a listener application for a Microsoft Azure solution (Developer G
 description: "The topic describes how to write an Azure solution listener application that can read and process Dynamics 365 Customer Engagement (on-premises) Customer Engagement messages that are posted to the Azure Service Bus."
 ms.custom: 
 ms.date: 12/17/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -144,3 +144,6 @@ else if (receivedMessage.ContentType = "application/xml")
  [Sample: REST Listener](sample-rest-listener.md)   
  [Send Dynamics 365 Customer Engagement Data over the Azure Service Bus](work-data-azure-solution.md)   
  [Work with Dynamics 365 Customer Engagement event data in your Azure Event Hub solution](work-event-data-azure-event-hub-solution.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

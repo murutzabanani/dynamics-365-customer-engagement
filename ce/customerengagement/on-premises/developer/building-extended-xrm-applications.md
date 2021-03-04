@@ -3,7 +3,7 @@ title: "Dynamics 365 Customer Engagement application platform for building exten
 description: "Dynamics 365 Customer Engagement offers customers, partners, independent software vendors (ISVs), and systems integrators (SIs), a powerful platform for building line-of-business applications. These applications are often referred to as Extended Dynamics 365 Customer Engagement applications (xRM) applications because they leverage the relationship tracking capabilities beyond the typical customer relationship management (CRM) scenarios. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -162,3 +162,6 @@ Dynamics 365 Customer Engagement (on-premises) offers customers, partners, indep
  [Extend Dynamics 365 Customer Engagement (on-premises) for Outlook](extend-customer-engagement-outlook.md)   
  [Integrate Dynamics 365 Customer Engagement (on-premises) with SharePoint](integration-dev/integrate-sharepoint.md)   
  [Integrate Dynamics 365 Customer Engagement (on-premises) with OneNote](integration-dev/integrate-onenote.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

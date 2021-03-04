@@ -3,7 +3,7 @@ title: "Sample: Set negative prices in opportunities, quotes, and sales orders s
 description: "The sample demonstrates how to set negative prices in opportunities, quotes, and sales orders."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -45,3 +45,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [PriceLevel Entity](entities/pricelevel.md)   
  [Opportunity Entity](entities/opportunity.md)   
  [Sample: Set Negative Prices in Opportunities, Quotes and Sales Orders](sample-set-negative-prices-opportunities-quotes-sales-orders.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

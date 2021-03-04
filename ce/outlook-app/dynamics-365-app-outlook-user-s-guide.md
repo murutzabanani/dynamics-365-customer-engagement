@@ -1,6 +1,7 @@
 ---
 title: "Dynamics 365 App for Outlook User Guide (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
+description: How to use Dynamics 365 App for Outlook.
 ms.date: 02/26/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -26,7 +27,7 @@ search.app:
 Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of your Dynamics 365 apps while you’re using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or phone. When [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a **Dynamics 365** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.  
 
 > [!IMPORTANT]
-> - The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with [Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/overview.md) and [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro), which implies that it also works with model-driven apps such as Dynamics 365 Sales and Dynamics 365 Customer Service. 
+> - The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), [Dynamics 365 Customer Engagement (on-premises), version 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/overview), and [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
 > - For a prior release that works with earlier versions of Dynamics 365 apps, see [Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).
 
  For example, when you open an email message, view information from your Dynamics 365 app about the email recipients. Or with a single click, link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message or appointment to a specific Dynamics 365 record. When you link an email message or appointment to a Dynamics 365 record, the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] record appears as an activity for that record in Dynamics 365 apps.  
@@ -62,7 +63,7 @@ For more information on FAQs, see [Frequently Asked Questions about Dynamics 365
 
    ![Manage the Dynamics 365 App for Outlook add-in](../outlook-app/media/manage-the-dynamics-365-app-outlook-add-in.png "Manage the Dynamics 365 App for Outlook add-in")  
 
-   This opens the **Office 365** dialog box where you can see all your [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] add-ins. If you click the Dynamics 365 row, you can see which instance the app is connected to.  
+   This opens the **Microsoft 365** dialog box where you can see all your [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] add-ins. If you click the Dynamics 365 row, you can see which instance the app is connected to.  
 
 2. Do one of the following:  
 
@@ -97,7 +98,7 @@ For more information on FAQs, see [Frequently Asked Questions about Dynamics 365
 
 **Notes:**  
 
-If the recipient is a Common Data Service or Customer Engagement (on-premises) user (as opposed to a contact or lead), it’s indicated above their name:  
+If the recipient is a Microsoft Dataverse or Customer Engagement (on-premises) user (as opposed to a contact or lead), it’s indicated above their name:  
 
 ![Dynamics 365 apps user](media/recipient-status.png)  
 
@@ -143,11 +144,11 @@ Let's go over the individual elements in the menu bar.
 |![Menu - Quick Create](media/navbar-add-btn.png)|Choose **Quick Create** to create a new record such as an account or contact.<br />See <a href="https://docs.microsoft.com/dynamics365/outlook-app/dynamics-365-app-outlook-user-s-guide#CreateRecord">Create a new record</a>|
 |![Menu - Search](media/navbar-search-btn.png)|Choose **Search** to search any Dynamics 365 apps records. |
 |![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to view the most important and relevant information in relation to what you are doing right now. <br />See [Gain insights into your activities with relationship assistant](#gain-insights-into-your-activities-with-relationship-assistant)|
-|![Menu - Documents](media/navbar-add-template-btn.png)|Choose **Documents** to add email templates, sales literature, or knowledge base articles. <br />See [Add an email template when you create an email message](#add-an-email-template-when-you-create-an-email-message) and [Add sales literature or a knowledge base article when you create an email message](#add-sales-literature-or-a-knowledge-base-article-when-you-create-an-email-message)|
+|![Menu - Documents](media/navbar-add-template-btn.png)|Choose **Documents** to add email templates, sales literature, or knowledge base articles. <br />See [Add an email template when you create an email message](user/email-template.md) and [Add sales literature or a knowledge base article when you create an email message](user/add-literature-or-kb.md)|
 
 ## Use delegate access 
 
-Delegate access is granted to users who manage certain aspects of Outlook and Common Data Service information for another person.
+Delegate access is granted to users who manage certain aspects of Outlook and Microsoft Dataverse information for another person.
 
 Once delegate access is turned on, you can use Dynamics 365 App for Outlook to track emails and calendar appointments for someone else.
 
@@ -173,14 +174,14 @@ For more information on how to set up delegate access, see [Set up delegate acce
    > [!div class="mx-imgBorder"] 
    > ![](media/Pic2.png)
    
-4. Once the email has finished synchronizing in Common Data Service, the status of the email changes to **Tracked regarding** for both the user and the delegated user.
+4. Once the email has finished synchronizing in Microsoft Dataverse, the status of the email changes to **Tracked regarding** for both the user and the delegated user.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/Pic3.png)
 
 ### Track appointment or meeting invitation for a known contact
 
-1. Go to the calendar of the person that you are a delegate for and open the invitation that you want to track in Common Data Service.
+1. Go to the calendar of the person that you are a delegate for and open the invitation that you want to track in Microsoft Dataverse.
 
    > [!div class="mx-imgBorder"] 
    > ![](media/Pic4.png)
@@ -197,7 +198,7 @@ For more information on how to set up delegate access, see [Set up delegate acce
    
 4. The status of the meeting invitation changes to **Track pending** for both the user and the delegated user. 
    
-5. Once the meeting invitation has finished synchronizing in Common Data Service, the status of the meeting invitation changes to **Tracked regarding** for both the user and the delegated user.
+5. Once the meeting invitation has finished synchronizing in Microsoft Dataverse, the status of the meeting invitation changes to **Tracked regarding** for both the user and the delegated user.
 
 
 ## Experience App for Outlook as a pinnable taskpane
@@ -327,78 +328,7 @@ To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-i
 1.  Select the monitored email message.  
 
 2.  Click **Unfollow**.  -->
-
-## Add an email template when you create an email message  
-If you frequently send the same type of email, you can save time by using an email template. When you use an email template, [!INCLUDE[pn_dyn_365_app_outlook](../includes/pn-dyn-365-app-outlook.md)] automatically inserts the Dynamics 365 information such as contacts or set regarding information in the email message.  
-
-For example, you could use a Thank you template to save time whenever you want to send a thank you message to a customer.  
-
-![Email template in Dynamics 365 App for Outlook](../outlook-app/media/email-template-dynamics-365-app-outlook.png "Email template in Dynamics 365 App for Outlook")  
-
-> [!NOTE]
-> You must have the appropriate permissions to add email templates.  
-
-### Add an email template  
-
-1. Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
-
-2. At the top of the **Dynamics 365** pane, click **Document** > **Add Template**.  
-
-   ![Add an email template](media/add-template.png)  
-
-3. Select the record type (entity). The default is the set regarding record. Then, click **Select**. 
-
-   ![Select the entity](media/select-entity-email-template.png)  
-
-4. Start a search for the template you want. Under **Search Template**, click (---).
-
-   ![Select search](media/select-template.png)  
-
-5. Search for and select the template you want. 
-
-   ![Search for email template](media/look-email-template.png)  
-
-6. Accept the selected email template.
-
-   ![Accept the template](media/accept-selection-email-template.png)  
-
-7. Click **Add to Email** to add the template to your email.
-
-   ![Add the template to email](media/add-template-to-email.png)  
-
-The template text appears in your email.
-
-![Template text in email](media/account-reconnect-sample-text.png)  
-
-For information on creating email templates, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).  
-
-## Add sales literature or a knowledge base article when you create an email message  
-
- When you're working with a customer, you might want to send them some sales literature or a knowledge base article.  
-> [!NOTE]
-> You must have the appropriate permissions to add sales literature or knowledge base articles to an email message.
-
-1. Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
-
-2. At the top of the **Dynamics 365** pane, click **Document**. 
-
-   ![Add a document](media/add-sales-lit-etc.png)  
-
-3. Select **Add Sales Literature** or **Add Knowledge Article**, and then follow the steps to add or insert the literature or article.
-
-## Add a phone call, appointment, or task activity to Dynamics 365 apps  
-
-1. For the record you have linked and are tracking, in Tracked regarding, click (...) > **Add Activity**.
-
-   ![Click Add Activity](media/add-activity-click.png)
-
-2. Select an activity.
-
-   ![Select activity](media/activities-to-add.png)
-
-3. Fill in the information in the form. 
-
-4. Click **Save**.  
+  
 
 ## Track Outlook contacts in Dynamics 365 apps  
  You can track [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contacts by using the [Dynamics 365 add-in, an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] solution module.   The add-in is automatically installed when you install [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. You can access it as described below.  
@@ -536,7 +466,13 @@ If the Dynamics 365 App for Outlook uses Server Side Synchronization to track an
 
 ![Outlook app server side sync](media/Outlook_app_server_side_sync.png "Outlook app server side sync")
 
+   > [!NOTE]
+   > For manually tracked items, App for Outlook only synchronize pre-definded fields between Outlook (Exchange) and Dynamics 365 apps. Any [Field level synchronization settings](https://docs.microsoft.com/power-platform/admin/what-fields-synchronized-outlook) will have no effect while tracking the items manually from App for Outlook.
+   
 ### See also  
  [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)   
  [Set up server-side synchronization (admins)](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

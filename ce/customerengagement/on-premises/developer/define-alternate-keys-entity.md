@@ -3,7 +3,7 @@ title: "Define alternate keys for an entity (Developer Guide for Dynamics 365 Cu
 description: "The topic explains about how to create alternate keys for an entity. Alternate keys can be created programmatically or by using the customization tools"
 ms.custom: 
 ms.date: 04/03/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -105,3 +105,5 @@ If the alternate key is deleted while an index creation job is still pending or 
  [Use change tracking to synchronize data with external systems](use-change-tracking-synchronize-data-external-systems.md)<br />
  [Use Upsert to insert or update a record](use-upsert-insert-update-record.md)
  
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

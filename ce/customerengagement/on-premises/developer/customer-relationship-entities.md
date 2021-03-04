@@ -2,7 +2,7 @@
 title: "Customer relationship entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -30,3 +30,6 @@ The *customer relationship entities* are not supported in [!INCLUDE[pn_dynamics_
   
 ### See also  
  [Business Management Entities](business-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

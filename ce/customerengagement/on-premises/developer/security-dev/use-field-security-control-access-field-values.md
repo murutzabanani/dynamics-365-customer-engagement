@@ -3,7 +3,7 @@ title: "Use field security to control access to field values (Developer Guide fo
 description: "Provides field-level security to restrict access to high business impact (custom and OOB) fields to specific users and teams."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -188,3 +188,6 @@ In Dynamics 365 Customer Engagement (on-premises), you use field-level security 
  [The Security Model of Microsoft Dynamics 365 Customer Engagement](security-model.md)   
  [How role-based security can be used to control access to entities in Microsoft Dynamics 365 Customer Engagement](how-role-based-security-control-access-entities.md)   
  [Use record-based security to control access to records](use-record-based-security-control-access-records.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

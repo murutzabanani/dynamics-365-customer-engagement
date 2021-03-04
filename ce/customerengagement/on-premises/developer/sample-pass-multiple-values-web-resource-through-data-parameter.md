@@ -3,7 +3,7 @@ title: "Sample: Pass multiple values to a  web resource through the data paramet
 description: "The sample represents a technique to pass the additional values within a single parameter and then process them within your web resource."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -207,3 +207,6 @@ An (HTML) web resource page can only accept a single custom parameter called `da
  [Sample: Import Files as Web Resources](sample-import-files-web-resources.md)   
  [Web Page (HTML) Web Resources](webpage-html-web-resources.md)   
  [Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

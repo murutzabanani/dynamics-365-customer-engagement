@@ -3,7 +3,7 @@ title: "Understand dialogs (Developer Guide for Dynamics 365 Customer Engagement
 description: "Dialogs contain pages, and each page can contain multiple sets of prompts and responses. You can also specify a dialog as a child dialog, and then invoke that dialog from within a parent dialog"
 ms.custom: 
 ms.date: 05/24/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -110,3 +110,6 @@ Dialogs contain pages, and each page can contain multiple sets of prompts and re
 ### See also  
  [Work with Dialogs](use-dialogs-guided-processes.md)   
  [Actions on Dialogs and Dialog Sessions](actions-dialogs.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

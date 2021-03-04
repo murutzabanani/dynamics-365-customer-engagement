@@ -3,7 +3,7 @@ title: "Field-level data encryption (Developer Guide for Dynamics 365 Customer E
 description: "Dynamics 365 Customer Engagement (on-premises) uses standard SQL Server cell level encryption for a set of default entity attributes that contain sensitive information, such as user names and email passwords. This feature can help organizations meet the compliance requirements associated with FIPS 140-2."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -65,3 +65,6 @@ search.audienceType:
   
 ### See also  
  [Administration Guide: Data encryption](https://technet.microsoft.com/library/dn531199\(v=crm.7\).aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: "Annotation (note) entity | MicrosoftDocs"
 description: "Learn about annotation entity to append additional information to any record in the database. The annotation  entity represents an annotation and contains the annotation text, who created and modified the annotation, and whether a file is attached to the annotation."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -48,3 +48,6 @@ Using the Web API, set the `HasNotes` property of the <xref:Microsoft.Dynamics.C
  [Annotation Entity](entities/annotation.md)   
  [Model Your Business Data](model-business-data.md)   
  [UserQuery (Saved View) Entity](userquery-saved-view-entity.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

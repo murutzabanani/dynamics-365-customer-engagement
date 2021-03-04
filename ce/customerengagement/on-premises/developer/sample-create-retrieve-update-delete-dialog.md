@@ -3,7 +3,7 @@ title: "Sample: Create, retrieve, update, and delete a dialog (Developer Guide f
 description: "The sample shows how to create, retrieve, update, and delete a dialog process using the methods IOrganizationService.Entity, IOrganizationService.ColumnSet, and IOrganizationService. Guid."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -47,3 +47,6 @@ This sample code is for Dynamics 365 Customer Engagement (on-premises). See the 
  [Sample Code for Processes](sample-code-processes.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

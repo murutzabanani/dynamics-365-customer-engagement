@@ -14,7 +14,7 @@ ms.reviewer: susikka
 ---
 # DeleteOQOILineWithSkipPricingCalculation custom action
 
-Enables you to delete OQOI line item without triggering price calculation.
+Enables you to delete opportunity, quote, order, and invoice line item without triggering price calculation.
 
 ## Parameters
 
@@ -50,3 +50,5 @@ var deleteOQOILineWithSkipPricingCalculationRequest= new ODataContract.DeleteOQO
 ### See also
 
 [msdyn_ForecastApi](msdyn_ForecastApi.md)
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

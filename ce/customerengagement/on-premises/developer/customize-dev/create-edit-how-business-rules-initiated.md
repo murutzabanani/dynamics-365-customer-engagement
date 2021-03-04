@@ -3,7 +3,7 @@ title: "Create or edit how business rules are initiated | MicrosoftDocs"
 description: "Business rules allow for defining logic that takes place in a form. Business rules provide an alternative to form scripts because they can be defined within a user interface without writing code."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -58,3 +58,6 @@ Business rules allow for defining logic that takes place in a form. Business rul
  Add back after Web API reference regen
  [ProcessTrigger Entity]/entities/processtrigger.md)
  -->
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

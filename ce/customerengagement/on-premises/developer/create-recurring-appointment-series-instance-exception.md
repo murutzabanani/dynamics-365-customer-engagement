@@ -3,7 +3,7 @@ title: "Create a recurring appointment series, instance, or exception (Developer
 description: "programmatically create a recurring appointment master (series),  individual recurring appointment instances, exceptions to those instances, or convert an appointment to a recurring appointment."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -80,3 +80,6 @@ When you create a recurring appointment master (series), [!INCLUDE[pn_microsoftc
  [Update a recurring appointment](update-recurring-appointment.md)   
  [Sample: Create a Recurring Appointment](sample-create-retrieve-update-delete-recurring-appointment.md)   
  [Sample: Convert an Appointment to a Recurring Appointment](sample-convert-appointment-recurring-appointment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

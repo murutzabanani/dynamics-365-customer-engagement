@@ -3,7 +3,7 @@ title: "Sample: Determine whether a user has a role (Developer Guide for Dynamic
 description: "The sample shows how to determine whether a user in Dynamics 365 Customer Engagement has been associated with a specific role."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -46,3 +46,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Sample: Remove a Role for a User](sample-remove-role-user.md)   
  [User and Team Entities](user-team-entities.md)   
     
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

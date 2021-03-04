@@ -3,7 +3,7 @@ title: "Walkthrough: Update a service endpoint from ACS to SAS authorization (De
 description: "The walkthrough demonstrates updating a service endpoint from Access Control Service (ACS) to Shared Access Signature (SAS) authorization."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -57,3 +57,6 @@ Shared Access Signature (SAS) is the recommended authorization method for the Dy
 ### See also  
  [Azure extensions for Dynamics 365 Customer Engagement](azure-extensions.md)   
  [Azure integration with Dynamics 365 Customer Engagement](azure-integration.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

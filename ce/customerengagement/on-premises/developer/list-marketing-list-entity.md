@@ -3,7 +3,7 @@ title: "List (marketing list) entity (Developer Guide for Dynamics 365 Customer 
 description: "Learn about list management and the list (marketing list) entity that help you create lists of potential customers or existing customers for marketing purposes."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -41,3 +41,6 @@ In Dynamics 365 Customer Engagement (on-premises), *list management* and the *li
  <xref:Microsoft.Crm.Sdk.Messages.CopyDynamicListToStaticRequest>   
  [Marketing Entities (Campaign, List)](marketing-entities-campaign-list.md)   
  [Sample: Distribute a Quick Campaign](sample-distribute-a-quick-campaign.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

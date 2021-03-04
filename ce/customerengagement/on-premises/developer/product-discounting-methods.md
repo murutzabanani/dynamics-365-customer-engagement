@@ -3,7 +3,7 @@ title: "Product discounting methods (Developer Guide for Dynamics 365 Customer E
 description: "The Organization.DiscountCalculationMethod attribute specifies the discount method: either line item or unit level."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -49,3 +49,6 @@ Discounts can be applied either at the line item level or at per unit level. Use
  [Discount Entity](entities/discount.md)   
  [DiscountType Entity](entities/discounttype.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

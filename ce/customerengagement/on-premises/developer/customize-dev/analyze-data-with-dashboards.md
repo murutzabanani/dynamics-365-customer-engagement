@@ -3,7 +3,7 @@ title: "Analyze data with dashboards (Developer Guide for Dynamics 365 Customer 
 description: "The dashboard entities in Dynamics 365 Customer Engagement enable you to present data from various charts, grids, IFRAMES, or web resources simultaneously. Dashboards allow you to compare and analyze various pieces of customer information, and give you data snapshots."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -54,3 +54,6 @@ A user-owned dashboard is represented by the `UserForm` entity, can be assigned 
  [Sample: Assign a User-Owned Dashboard to Another User](sample-assign-user-owned-dashboard-another-user.md)   
  [Visualization data description schema](visualization-data-description-schema.md)     
  [Customize visualizations and dashboards](customize-visualizations-dashboards.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

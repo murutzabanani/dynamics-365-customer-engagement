@@ -3,7 +3,7 @@ title: "Offline use of the Dynamics 365 Customer Engagement (on-premises) servic
 description: "Learn about how various Dynamics 365 Customer Engagement (on-premises) services can be used offline. There are several messages that are supported offline. You can also determine whether a IOrganizationService message works offline by checking the SdkMessage.Availability attribute for the desired message"
 ms.custom: on-premise
 ms.date: 09/05/2019
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -33,3 +33,6 @@ search.audienceType:
  <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

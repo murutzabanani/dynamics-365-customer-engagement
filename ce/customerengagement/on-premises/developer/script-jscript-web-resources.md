@@ -3,7 +3,7 @@ title: "Script(JScript) web resources (Developer Guide for Dynamics 365 Customer
 description: "Learn about using JavaScript web resources to create a library of JavaScript functions that can be accessed from anywhere. "
 ms.custom: 
 ms.date: 03/02/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -61,3 +61,6 @@ Use Script(JScript) web resources to create a library of [!INCLUDE[pn_JavaScript
  [Using Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)   
  [Using Stylesheet (XSL) Web Resources](stylesheet-xsl-web-resources.md)   
  [Streamline web resource development using Fiddler AutoResponder](streamline-javascript-development-fiddler-autoresponder.md)    
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

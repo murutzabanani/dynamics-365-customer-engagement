@@ -3,7 +3,7 @@ title: "Sample: Download report definition | MicrosoftDocs"
 description: "This sample shows how download report definition."
 ms.custom: 
 ms.date: 01/28/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -50,3 +50,5 @@ Checks for the current version of the org.
 ### Clean up
 
 Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

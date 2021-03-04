@@ -27,4 +27,7 @@ Follow these steps to determine your organization name and ID.
 2. Under **Instance Reference Information**, make note of **ID** and **Unique Name**. **Unique Name** is the organization name.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/org-id-name.png "Determine org ID and name")
+> ![Determine org ID and name](media/org-id-name.png "Determine org ID and name")
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

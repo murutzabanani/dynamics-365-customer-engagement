@@ -3,7 +3,7 @@ title: "Multi-Select Picklist attributes (Developer Guide for Dynamics 365 Custo
 description: "Learn about multi-select picklist attributes that allow storing multiple option choices in a single attribute."
 ms.custom: 
 ms.date: 09/05/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -339,3 +339,6 @@ But if you need to automate creation of this kind of attribute you can use C# co
 [Work with attribute metadata](org-service/work-attribute-metadata.md)<br />
 [Sample: Work with attribute metadata](org-service/sample-work-attribute-metadata.md)<br />
 [Use the early-bound entity classes for create, update, and delete](org-service/use-early-bound-entity-classes-create-update-delete.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: "Form XML schema | MicrosoftDocs"
 description: "Learn about schema definition for form customizations."
 ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -1890,3 +1890,6 @@ The following is the schema definition for form customizations for Dynamics 365 
  [Create, Install, and Update a Managed Solution](../create-install-update-managed-solution.md)   
  [Create, Export, or Import an Unmanaged Solution](../create-export-import-unmanaged-solution.md)   
  [Form XML schema](form-xml-schema.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: "Define custom claim mapping for SharePoint server-based integration (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -67,3 +67,6 @@ _serviceProxy.Create(customMapping);
 ### See Also
  [UserMapping Entity](../entities/usermapping.md)   
  [Integrate Microsoft Dynamics 365 Customer Engagement (on-premises) with SharePoint](integrate-sharepoint.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

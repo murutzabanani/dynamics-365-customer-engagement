@@ -3,7 +3,7 @@ title: "Walkthrough: Register an Azure-aware plug-in using the Plug-in Registrat
 description: "The walkthrough demonstrates how to register a service endpoint step using the Plug-in Registration Tool. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -102,3 +102,6 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 ### See also  
  [Azure Extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)   
  [Introduction to Microsoft Azure Integration with Dynamics 365 Customer Engagement (on-premises)](azure-integration.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

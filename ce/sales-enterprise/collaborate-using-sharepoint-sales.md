@@ -14,6 +14,8 @@ manager: shujoshi
 
 # Collaborate using SharePoint 
 
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Manage common document types, such as Word, Excel, and PowerPoint and create folders to save and manage those documents that are seamlessly stored in SharePoint from within a model-driven app. 
 
 > [!NOTE]
@@ -55,12 +57,12 @@ Additionally, by default, the **Files** and **Documents** tab are added to the *
     The document file appears in the **Document Associated Grid** view. 
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/add-doc-sharepoint.png "Add document to SharePoint")
+    > ![Add document to SharePoint](media/add-doc-sharepoint.png "Add document to SharePoint")
 
     The document also appears on the SharePoint site folder location. 
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/doc-on-sharepoint.png "Document on SharePoint")
+    > ![Document on SharePoint](media/doc-on-sharepoint.png "Document on SharePoint")
 
 ## Manage SharePoint locations
 
@@ -79,7 +81,7 @@ You can create new or edit existing SharePoint locations from a model-driven app
 5. The **Add Location** dialog box appears.
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/add-location-dialog-box.png "Add location dialog box")
+    > ![Add location dialog box](media/add-location-dialog-box.png "Add location dialog box")
 
 6. The display name, parent site, and folder name are automatically populated. Change the details if required, and then select **Save**.
 
@@ -119,3 +121,6 @@ When you select one or more documents in the Documents list, you can take the fo
 ### See also
 
 [SharePoint, OneNote, and OneDrive integration with Common Data Service](/powerapps/maker/common-data-service/sharepoint-onedrive-onenote-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

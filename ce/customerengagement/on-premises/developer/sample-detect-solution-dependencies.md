@@ -12,7 +12,7 @@ ms.assetid: d347f96b-a137-42e1-a9bf-fac6d6133330
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
@@ -63,3 +63,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Clean up
 
 Display an option to delete the solutions created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

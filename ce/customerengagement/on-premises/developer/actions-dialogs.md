@@ -3,7 +3,7 @@ title: "Actions on dialogs (Developer Guide for Dynamics 365 Customer Engagement
 description: "This topic describes the actions you can perform on dialogs using the Dynamics 365 Customer Engagement web services (SDK). "
 ms.custom: 
 ms.date: 05/24/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -105,3 +105,6 @@ https://CRMServer_Name/Org_Name/cs/dialog/rundialog.aspx?DialogId=DialogID&Entit
  [Work with Dialogs](use-dialogs-guided-processes.md)  
  [Understanding Dialogs](understand-dialogs.md)  
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a Dialog](sample-create-retrieve-update-delete-dialog.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

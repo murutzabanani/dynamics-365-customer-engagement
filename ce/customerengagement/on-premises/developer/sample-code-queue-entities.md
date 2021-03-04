@@ -3,7 +3,7 @@ title: "Sample code for queue entities (Developer Guide for Dynamics 365 Custome
 description: "The sample code examples demonstrate how to use the queue entities."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -43,3 +43,6 @@ This section contains the code examples that demonstrate how to use the queue en
   
 ## Related Sections  
  [Queue Entities](queue-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

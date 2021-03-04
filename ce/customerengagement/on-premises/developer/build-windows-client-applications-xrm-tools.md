@@ -3,7 +3,7 @@ title: "Build Windows client applications using the XRM tools (Developer Guide f
 description: "XRM tooling is a set of APIs that provides support for building Windows client applications for Dynamics 365 Customer Engagement (on-premises)"
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -26,7 +26,7 @@ XRM tooling is a set of APIs built on top of the Dynamics 365 Customer Engagemen
 > [!NOTE]
 > [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)]
 >
-> The XRM tooling documentation that is applicable to Common Data Service users is now available in the Power Apps documentation at: [Build Windows client applications using the XRM tools](https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)
+> The XRM tooling documentation that is applicable to Dataverse users is now available in the Power Apps documentation at: [Build Windows client applications using the XRM tools](https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)
 >
 > [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
 
@@ -50,3 +50,5 @@ XRM tooling provides the following capabilities:
 
 [Sample: Quick start for XRM Tooling API](/powerapps/developer/common-data-service/xrm-tooling/sample-quick-start-xrm-tooling-api)<br />
 [Simplified connection quick start](/powerapps/developer/common-data-service/xrm-tooling/sample-simplified-connection-quick-start)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

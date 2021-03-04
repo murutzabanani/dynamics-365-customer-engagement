@@ -12,7 +12,7 @@ ms.assetid: a3008ed8-a934-4790-9979-43be7b5e7aaf
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
@@ -37,7 +37,7 @@ search.audienceType:
 
 # Sample: Work with solutions
 
-[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Sample: Work with solutions](/powerapps/developer/common-data-service/package-deployer/org-service/samples/work-solutions).
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Sample: Work with solutions](/powerapps/developer/common-data-service/org-service/samples/work-solutions).
 
 This sample shows how to perform the following actions with solutions:
 
@@ -88,3 +88,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 Displays an option to delete all the data created in the sample. The deletion is optional in case you want to examine the data created by the sample. You can manually delete the data to achieve same results.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

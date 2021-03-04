@@ -3,7 +3,7 @@ title: "Use the Organization service with metadata (Developer Guide for Dynamics
 description: "Learn about how to programmactically access and modify the metadata model using the organization service with metadata."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -52,3 +52,6 @@ Metadata refers to the structure of entities used to manage data in [!INCLUDE[pn
  [Browse the Metadata for Your Organization](../browse-your-metadata.md)  
   
  [Use the Web API with metadata](../webapi/use-web-api-metadata.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

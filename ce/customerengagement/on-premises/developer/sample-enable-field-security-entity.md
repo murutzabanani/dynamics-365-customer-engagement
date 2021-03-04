@@ -3,7 +3,7 @@ title: "Sample: Enable field security for an entity| MicrosoftDocs"
 description: "The sample shows how to enable field security for an entity."
 ms.custom: 
 ms.date: 01/08/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -61,3 +61,6 @@ In order to simulate the scenario described above, the sample will do the follow
 
 Display an option to delete the records in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

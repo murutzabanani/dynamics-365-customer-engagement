@@ -3,7 +3,7 @@ title: "Plan for solution development (Developer Guide for Dynamics 365 Customer
 description: "Solutions introduce factors to take into consideration during your planning. The following topics introduce strategies to use while planning your solution development efforts."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -42,3 +42,6 @@ Solutions introduce factors to take into consideration during your planning. The
  [Solution entities](solution-entities.md)  
   
  [Publish your app on AppSource](publish-app-appsource.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

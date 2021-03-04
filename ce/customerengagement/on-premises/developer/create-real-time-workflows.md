@@ -3,7 +3,7 @@ title: "Create real-time workflows (Developer Guide for Dynamics 365 Customer En
 description: "Learn about real-time workflows that can be used to model and automate real world business processes. Real-time workflows are for business users, for example business analysts, to implement similar functionality to synchronous plug-ins without requiring .NET Framework programming experience."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -111,3 +111,6 @@ Similar to asynchronous workflows, real-time workflows can be used to model and 
  [Create your own actions](create-own-actions.md)   
  [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)   
  [Write Plug-Ins to Extend Business Processes](write-plugin-extend-business-processes.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

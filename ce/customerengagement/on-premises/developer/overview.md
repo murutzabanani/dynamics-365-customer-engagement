@@ -3,18 +3,12 @@ title: "Developer Guide for Dynamics 365 Customer Engagement (on-premises)| Micr
 description: "This SDK contains a wealth of resources, including code samples, which are designed to help you build powerful vertical applications using the Customer Engagement (on-premises) platform. It is a guide for developers writing solutions, server-side code, client applications and extensions, custom business logic, plug-ins, integration modules, custom workflow modules and more. The SDK contains an architectural overview of Customer Engagement, the entity model, security model, web services, and sample code."
 ms.custom: 
 ms.date: 04/20/2020
-ms.reviewer: 
-ms.service: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: pehecke
+ms.prod: dynamicscrm-2016 
 ms.topic: article
 ms.assetid: e926cfed-f581-4f1f-83bd-75a06292212b
 author: KumarVivek
 ms.author: kvivek
-manager: annbe
-tags: 
-  - aug2017
-  - MigrationHO
 search.audienceType: 
   - developer
 
@@ -25,7 +19,7 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 
 - For documentation of earlier on-premises versions (8.x and earlier), see <https://docs.microsoft.com/previous-versions/dynamics/>.
 
-- If you are using our online apps that are built on Common Data Service (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation), see the [Common Data Service Developer Guide](https://docs.microsoft.com/powerapps/developer/common-data-service/overview) along with the respective app's developer docs.
+- If you are using our online apps that are built on Dataverse (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation), see the [Dataverse Developer Guide](https://docs.microsoft.com/powerapps/developer/common-data-service/overview) along with the respective app's developer docs.
 
 <table>
 <tr>
@@ -135,3 +129,6 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 [Unified Service Desk Guide](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

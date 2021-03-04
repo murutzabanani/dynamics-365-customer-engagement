@@ -3,7 +3,7 @@ title: "Run bulk delete (Developer Guide for Dynamics 365 Customer Engagement (o
 description: "Delete data in bulk by submitting an asynchronous bulk delete job via the BulkDeleteRequest message."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -67,3 +67,6 @@ To delete data in bulk, you have to submit a bulk delete job by using the <xref:
  [Sample: Bulk Delete Exported Records](sample-bulk-delete-exported-records.md)   
  [Sample: Bulk Delete Records That Match Common Criteria](sample-bulk-delete-records-match-common-criteria.md)   
  [BulkDeleteOperation Entity](entities/bulkdeleteoperation.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

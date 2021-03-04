@@ -3,7 +3,7 @@ title: "Appointment entities (Developer Guide for Dynamics 365 Customer Engageme
 description: "Overview of the appointment entity, which represents a commitment over a time interval with start and end times and a duration."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -41,3 +41,6 @@ appointment instance, for other appointments at the same interval.
  [Appointment Entity](entities/appointment.md)  
   
  [ServiceAppointment Entity](entities/serviceappointment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

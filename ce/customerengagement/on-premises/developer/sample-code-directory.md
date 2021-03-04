@@ -12,7 +12,7 @@ ms.assetid: ce3c5bdf-0fe8-424b-96bc-ce3fe7adcd2e
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
@@ -384,3 +384,6 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
   
 ### See also  
  [Tutorials for Learning Dynamics 365 Customer Engagement (on-premises)](tutorials-resources-sdk.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

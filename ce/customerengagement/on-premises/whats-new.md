@@ -5,7 +5,7 @@ ms.topic: "topic"
 ms.assetid: 676b68d9-2a7b-4924-a5cf-299163e8b5ea
 author: mattp123
 ms.author: matp
-manager: kvivek
+ms.prod: dynamicscrm-2016
 ---
 
 # New features in Dynamics 365 Customer Engagement (on-premises), version 9
@@ -13,7 +13,7 @@ manager: kvivek
 This topic lists new features that are available with Dynamics 365 Customer Engagement (on-premises), version 9.
 
 > [!NOTE]
-> The model-driven apps in Dynamics 365 such as Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation apps already have these features. More information: [Dynamics 365 Documentation](https://docs.microsoft.com/dynamics365). 
+> The customer engagement apps (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation) already have these features. More information: [Dynamics 365 Documentation](https://docs.microsoft.com/dynamics365). 
 
 |Feature  
 |---------|  
@@ -30,5 +30,8 @@ This topic lists new features that are available with Dynamics 365 Customer Enga
 |  [Security enhancements: User session and access management](/dynamics365/customerengagement/on-premises/admin/user-session-management)   |
 
 > [!NOTE]
-> The offline capability in Dynamics 365 for Outlook, version 9.0 isn't available in Dynamics 365 Customer Engagement (on-premises), version 9.x. However, the offline capability in Dynamics 365 for Outlook, version 9.0 will continue to be supported in [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro).
+> The offline capability in Dynamics 365 for Outlook, version 9.0 isn't available in Dynamics 365 Customer Engagement (on-premises), version 9.x. However, the offline capability in Dynamics 365 for Outlook, version 9.0 will continue to be supported in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

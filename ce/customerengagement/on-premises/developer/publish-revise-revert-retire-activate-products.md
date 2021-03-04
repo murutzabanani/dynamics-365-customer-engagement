@@ -3,7 +3,7 @@ title: "Publish, revise, revert, retire, and activate products--product lifecycl
 description: "Programmatically control the product lifecycle through the draft, active, under revision, and retired states."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -130,3 +130,6 @@ RevertProductResponse reverted = (RevertProductResponse)_serviceProxy.Execute(re
  [Manage Product Pricing](product-pricing-methods.md)   
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

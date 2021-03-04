@@ -1,26 +1,18 @@
 ---
 title: "Frequently asked questions for Dynamics 365 Field Service | MicrosoftDocs"
+description: Find answers to frequently asked questions for Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 07/06/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: tw45
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -72,12 +64,14 @@ This issue happens when a booking is assigned from a resource (not crew or group
 
 No. Modifying, editing, or deleting date fields and statuses can affect business logic and may disrupt solution upgrades. Examples of work order date fields include date window start, date window end, time from promised, and time to promised. Examples of status fields include work order system status and agreement system status.
 
-## Why do I get the error message "This form can only be used on service-maintenance based records. Record is read only"
+## Why do I get the error message "This form can only be used on service-maintenance based records. Record is read only"?
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the error on the opportunity form](./media/faq-opportunity-read-only.png)
 
-Field Service makes the opportunity, lead, quote, and invoice forms read-only once Field Service detects the record is not a service-maintenance based record. Field Service forms or the forms copied from Field Service forms do not support opportunity, lead, quote, and invoice records other than Field Service opportunity, lead, quote, and invoice. If you want to use an opportunity form for non-Field Service-related opportunities, use the out-of-the-box opportunity (**Opportunity: Opportunity**) form shipped by Dynamics 365 Sales or copy this form for further customization. The same is true for lead, quote, and invoice.
+Field Service makes the out-of-the-box Field Service opportunity, lead, quote, and invoice forms read-only once Field Service detects the record is not a service-maintenance based record. Field Service forms or the forms copied from Field Service forms do not support opportunity, lead, quote, and invoice records other than Field Service opportunity, lead, quote, and invoice. If you want to use an opportunity form for non-Field Service-related opportunities, use the out-of-the-box opportunity (**Opportunity: Opportunity**) form shipped by Dynamics 365 Sales or copy this form for further customization. The same is true for lead, quote, and invoice.
+
+In addition, some organizations may see this error after upgrading from versions of Field Service earlier than version 8. In this scenario, the issue is usually with copied forms on these entities; customers might have to update the event handlers to call either the x.Library.load for Field Service forms or x.Library.loadStandardForm handlers for these entities’ standard, out-of-the-box forms.
 
 ## Why do I get an AttributeMap error when upgrading and how do I fix it?  
 
@@ -86,7 +80,7 @@ You may have encountered one of these two errors during upgrade:
 - "An AttributeMap, with ID: GUID, between attribute customerid and msdyn_serviceaccount of entity incident and msdyn_workorder, has an unmanaged base instance and therefore cannot be updated by a managed solution."
 - "An AttributeMap, with ID: GUID, between attribute customerid and msdyn_billingaccount of entity incident and msdyn_workorder, has an unmanaged base instance and therefore cannot be updated by a managed solution."
 
-You can resolve this issue by following the steps outlined below. The attributemaps will be automatically recreated by upgrading to a newer version. Review these two attributemaps and delete them in your environment.
+You can resolve this issue by following the steps outlined below. The attribute maps will be automatically recreated by upgrading to a newer version. Review these two attribute maps and delete them in your environment.
 
 ### Error with customerid and msdyn_serviceaccount
 
@@ -145,3 +139,6 @@ This field is found in the following entities:
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,34 +1,130 @@
 ---
-title: "Field Service Mobile version history | MicrosoftDocs"
+title: "Dynamics 365 Field Service Mobile version history | MicrosoftDocs"
+description: Find a list of important updates for Dynamics 365 Field Service mobile apps.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/14/2020
+ms.date: 12/07/2020
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Field Service Mobile version history
+# Field Service Mobile (Xamarin) version history
 
-This article chronicles important updates related to Field Service Mobile and associated mobile project templates.
+> [!IMPORTANT]
+> We recommend using the [Field Service (Dynamics 365) mobile app](mobile-power-app-overview.md) instead of the Field Service Mobile (Xamarin) app to benefit from the new features and continuous investments in the platform. While the new Field Service (Dynamics 365) mobile app continues to evolve, we'll continue to make available and support the current Field Service Mobile (Xamarin) app. By June 2021, new deployments must use the Field Service (Dynamics 365) mobile app; support for the current Field Service Mobile (Xamarin) app will end June 2022.
+
+This article chronicles important updates related to Field Service Mobile (Xamarin) app and associated mobile project templates.
+
+## 13.2.203
+
+### Updates 
+- OAuth authentication support with Sharepoint integration 
+- Entity form rules step ExecuteJS
+- JSBridge: DefaultKeepAlive flag exposed through JSBridge command (Desktop only) 
+- iOS: FilterPicker now uses UIPopoverPresentationController for iPads 
+- [Android] Changes to target API level 29 (Android 10)
+ 
+### Bug fixes 
+- Clicking on ContentDocumentLink crashes app when related entity is not in metadata 
+- MobileCRM: Localization is not applied for time picker 
+- iOS: NewDetailImageItem - fit image also by width. 
+- Sync: Some cleanup optimizations switched off in case of FullSync. 
+- Win10: App crash on charts. 
+- Unable to add N:N relation for different id with the same target entity (user to user) 
+- Business process flow sync errors 
+- Export command on list view currently accepts only 950 records 
+- Win10: Error applying form rule - Crashes in DetailItemTextBox (InvalidCastException: InvalidCast_WinRT, Resco.UI.WindowsRT.DetailItemComboBox, MissingMetadataType) 
+- iOS: View selector popup is not correctly centered on iPads 
+- iOS: Ultimate list-set needs display every time when the frame was changed. 
+- Win10: When the visibility of a LookUp view changes in an onChange rule, the lookUp field is never enabled again. 
+- CSS: MobileUsers grid not scrollable to bottom 
+- Email form 'to' field value is filled two times 
+- FormTable: Table disappears on the Android app after returning from landscape mode 
+- It takes too long to close RichTextEditor properties - user is confused 
+- JSBridge: setting "preventClose" causes close button to disappear for all lookups 
+- Allow disabling use of versionnumber in full or incremental sync per entity in Advanced Sync Setup
+- Charts: wrong labels of second Horizontal axis field
+- Clicking on check-box on the list view opens the list item instead of checking the check-box
+- Overlap of contents on report preview on Android
+- Save is not executing when invoking MobileCRM.UI.EntityForm.save() from script
+
+
+
+## 12.3.206
+
+### Updates
+
+- Moving authentication library from ADAL.Net to MSAL.
+- Updating Intune SDKs for Android and iOS.
+- Azure Image Recognition: Integrate with Azure's Custom Vision service to classify images.  
+- Buttons on entity forms: Ability to add custom buttons on forms, adding the ability to execute actions directly from form's UI. A rule can be provided to implement custom business logic.  
+- Brand new look and feel of charts: Charts in the mobile application get a visual makeover as the app now uses a different visualization library. The old look can be enabled as a legacy option in Woodford.
+- Rules support square root and other math operators  
+- Rules editor now natively supports more complex math operations on top of your data, such as using the *Nth* root, exponentiation, and logarithm, directly in the rules.
+- Mobile audit is uploaded last to ensure that any referenced records are uploaded first.  
+- REFACTOR: iOS: RTL ordering of panels. 
+- Mobile reports: When emailing report from multiselect, pass first record reference as relationship variable.
+- Sync: Custom upload order: It is now possible to specify a custom upload order. You can specify which entities are uploaded at the beginning and which entities are uploaded at the end of the upload process.  
+- Report: Excel: Use style with text wrapping enabled for texts with multiple lines. 
+
+### Bug Fixes
+
+- Win10: MonthCalendar handled every cell click twice.
+- Win10: Refresh global search placeholder after app language has changed.
+- MobileCRM.Win10: Stacked chart display old chart on hover. 
+- MobileCRM.Win10: Bar charts don't support stacked or grouped view.
+- Win10: Forward button included (serves as back button in RTL). 
+- Win10: RTL-related fixes.
+- Android: SendEmail action fixed to support both Gmail and Outlook.
+- Android: Do not show download progress in status bar on devices with top cutout (notch) and Android 9+ in portrait.
+- Report: Excel: Fixed assignment of horizontal alignment constants to vertical alignment. Fixed warning. 
+- All: Use correct color for home icons if custom home theme is used.
+- Scheduler: FilterStatus and other items in ButtonsBar were not reduced or hidden properly when ButtonsBar width was not sufficient.
+- Report: Excel: Fixed assignment of horizontal alignment constants to vertical alignment.
+- Android: Hide tab bar when content was scrolled externally.  
+- MobileCRM.Win10: Charts: Missing axis Labels (only every second is displayed).
+- Fixed incorrect date formats.
+- Charts labels overlap and error when charts use year grouping.  
+- Win10: Drilldown window in the center of view when the chart is too large.  
+- Incorrect implementation of RemoveItemCampaign/RemoveItemCampaignActivity web requests (Dynamics 365).
+- Failure to sync the entity ServiceEndpoint (and other entities without RowVersion field) if the sync type is 'Incremental Sync.'  
+- iOS13 - App crashes when uploading videos to cloud storage.
+- iOS13 - App crashes if notifications are disabled for the app.
+- Mobile Report does not work with cloud Documents in online mode.  
+- iOS: Expand/Collapse button should only be available on New Form UI.
+- iOS13 - App crash when appointment set to "Complete."  
+- Source has been attached to any resource when there has not been valid resource (in mode 'Source To Owner relationship').  
+- SharePoint: Sync problems when adding and deleting SharePoint docs.  
+- Accessibility: VoiceOver: iOS: Can't edit already filled Lookup fields.
+- LOCALIZATIONS: Remove unnecessary translations of DetailView tabs (en-US and es-ES).
+- Mobile CRM: Windows Store app cannot open lookup dialog window.  
+- Mobile CRM: App crashes when exporting records.  
+- Unable to save signature as a .png file.
+- iOS: Lookup control - typed characters are invisible in the text input.
+- Android: App crashing when returning from tasks form.
+- Android: App crashes when trying to print notes.
+- iOS: App intermittently not loading saved password on iOS 13.x. We have changed the default configuration to access keychain data. From 'AccessibleWhenUnlockedThisDeviceOnly' to 'AccessibleAfterFirstUnlockThisDeviceOnly.'
+- Android: Intermittent app crash on barcode scan.
+- Android: Fix for extra lines appearing in PDF report.
+- Mismatch in behavior of day picker for duration field in work order service for Android and Windows.
+- Android app crashes when scanning barcode.
+- Android app crashes when trying to print notes.
+- Android app crashing when returning from tasks form.
+- Android app crashes when resource not 'Enabled for mobile' signs in.
+- Android Intune: Go back button doesn’t work properly when we transfer data from other apps.
+- All platforms UX Improvement: Session ID on error dialog box.
+- Android App crashes when trying to sign in without password.
+- Android updated 'MGF1 digest' encryption methodology from SHA-1 to SHA-256.
 
 ## 12.1.224
 
@@ -43,14 +139,14 @@ This article chronicles important updates related to Field Service Mobile and as
 - Android: Crash fix.
 - All: Custom option set values displayed in unordered list.
 - All: BPF customizations require save before proceeding even with no change.
-- All: Handled exception on view search when search contains optionsets.
+- All: Handled exception on view search when search contains option sets.
 - All: Custom/auto-save forms not automatically saving changes.
 
 ## 12.1.220
 
 ### Updates
 
-- Enabled capability to launch Remote Assist from iOS.
+- Enabled capability to launch Dynamics 365 Remote Assist from iOS.
 - Accessibility enhancements.
 - Mobile reports usability improvement: default to last report type used.
 - Barcode scanner usability improvement: scan multi-part bar codes.
@@ -88,9 +184,9 @@ This article chronicles important updates related to Field Service Mobile and as
 ## 12.1.203
 
 - Win10: Use standard fileIO methods (except open & delete).
-- When copying DynamicEntity, copy the partylist and not just the pointer.
+- When copying DynamicEntity, copy the party list and not just the pointer.
 - SharePoint upload: A misleading sync error removed.
-- Sync does not download NN entities (including the listmember entity).
+- Sync does not download NN entities (including the list member entity).
 - Set entity multiselect picklist property value using JsonSerializers.
 - Always reload EntityHub command.
 - Improve the username discovery for OAuth2.
@@ -109,11 +205,11 @@ This article chronicles important updates related to Field Service Mobile and as
 - Don't inspect dirty flag on disposed form controller (AppStore crashes).
 - Android: Delay LocationTracking service creation on startup.
 - Desktop: Bring all types of DetailItems into view. Previously only text items were handled.
-- Google and Exchange contacts: fullname filter is compatible.
+- Google and Exchange contacts: full name filter is compatible.
 - iOS: MessageBox-related fixes.
 - SearchForm force the cached entities, we already know the entities to search.
 - Desktop: Do not scrollIntoView multiline text DetailItem on click.
-- Google, Exchange contacts: fullname filter is compatible.
+- Google, Exchange contacts: full name filter is compatible.
 - Clicking on Power BI sign-in button doesn't open authentication dialog.
 - iOS "Navigate To" command in account form doesn't fill in the destination automatically after redirecting to the map app.
 - "Direct to current location" button on the map of work order doesn't work in iOS.
@@ -133,7 +229,7 @@ This article chronicles important updates related to Field Service Mobile and as
 
 ## 11.3.107
 
-- Support for Remote Assist deep linking (Android).
+- Support for Dynamics 365 Remote Assist deep linking (Android).
 - Fixed saving of offline booking signatures.
 - Fixed update address button error message.
 - Fixed unresponsive iOS buttons.
@@ -147,13 +243,50 @@ Mobile projects hold configurations and customizations of the Field Service Mobi
 
 To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
 
+## 1.0.7289
+
+| Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford version | Minimum Field Service version |
+| --- | --- | --- | --- | --- |
+| [1.0.7289](https://aka.ms/fsmobile-project)  |  January 2021  |  12.1+ | 12.1+ | 8.8.30 | 
+
+Features:
+- Inspections: Added support for matrix control in Mobile.
+- Inspections: Data returned in entity lookup can be based on related entity lookup to improve filtering.
+
+Bug fixes:
+- Error will be thrown when saving time entry if end time is prior to start time.
+- Warehouse is set to the user who is logged into the application by default.
+- Windows app: Map icon in shortcut header is not visible. 
+- Inspections: WOST form not closing on "Mark Complete" button click if form is not filled. 
+- Inspections: Unable to put response in different language than English in inspections form. 
+- Inspections: Bar control text input updates to look like a single line text box.
+- Inspections: Windows: An error appears on work order service task if work order service task has an inspection.
+
+
+
+## 1.0.5912
+
+| Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford version | Minimum Field Service version |
+| --- | --- | --- | --- | --- |
+| [1.0.5912](https://aka.ms/fsmobile-project-5912)  |  October 2020  |  12.1+ | 12.1+ | 8.8.30 | 
+
+Features
+- Inspections support on Field Service Mobile
+- Functional Location support on Field Service Mobile
+- Asset properties support on Field Service Mobile
+
+Bug Fixes:
+- Travel calculation corrected in scenarios where actual arrival time is late
+- Added defensive checks to prevent creating duplicate timestamps
+
+
 ## 1.0.4847
 
 | Download link | Release date | Relates to Field Service Mobile version | Publish to Woodford version | Minimum Field Service version |
 | --- | --- | --- | --- | --- |
-| [1.0.4847](https://aka.ms/fsmobile-project)  |  June 2020  |  12.1+ | 12.1+ | 8.8.14 | 
+| [1.0.4847](https://aka.ms/fsmobile-project-4847)  |  June 2020  |  12.1+ | 12.1+ | 8.8.14 | 
 
-- Added support for Remote Assist deep link on iOS.
+- Added support for Dynamics 365 Remote Assist deep link on iOS.
 - Bug fix to populate fields from service account when creating a new work order associated with that service account.
 
 ## 1.0.4549
@@ -177,7 +310,7 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | --- | --- | --- | --- | --- |
 | [1.0.3482](https://aka.ms/fsmobile-project-3482)  |   November 2019  |  11.3+ | 11.3+ | 8.8.6.300 | 
 
-- Added support Remote Assist deep linking (Android)
+- Added support Dynamics 365 Remote Assist deep linking (Android)
 
 ## 1.0.2735
 
@@ -214,3 +347,6 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service mobile 2017 app download example](media/mobile-field-service-mobile-2017-windows-app-store.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

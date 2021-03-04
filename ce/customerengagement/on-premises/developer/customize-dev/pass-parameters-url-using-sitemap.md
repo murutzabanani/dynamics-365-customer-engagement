@@ -3,7 +3,7 @@ title: "Pass parameters to a URL using the SiteMap  (Developer Guide for Dynamic
 description: "Learn about passing parameters to a URL using the SiteMap"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -53,5 +53,8 @@ https://myserver/mypage.aspx?orgname=AdventureWorksCycle&userlcid=1033&orglcid=1
  Webpage (HTML) web resources will accept these parameters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Passing parameters to HTML web resources](../webpage-html-web-resources.md#BKMK_PassingParametersToWebResources)  
   
 ### See also  
- [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)    
+ [Change Application Navigation using the SiteMap](change-application-navigation-using-sitemap.md)    
  [SiteMap schema](sitemap-schema.md)  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

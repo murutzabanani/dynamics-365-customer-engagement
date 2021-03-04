@@ -3,7 +3,7 @@ title: "Uninstall or delete a solution (Developer Guide for Dynamics 365 Custome
 description: "This doc describes how uninstall and delete actions work for managed and unmanaged solution in Dynamics 365 Customer Engagement"
 ms.custom: 
 ms.date: 04/02/2020
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -77,3 +77,5 @@ You delete managed and unmanaged solutions in the same way, but the resulting ac
  [Create Solutions that Support Multiple Languages](create-solutions-support-multiple-languages.md)   
  [Install a Managed Solution](create-install-update-managed-solution.md#BKMK_InstallManagedSolution)
  
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

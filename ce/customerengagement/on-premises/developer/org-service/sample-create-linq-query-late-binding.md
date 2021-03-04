@@ -3,7 +3,7 @@ title: "Sample: Create a LINQ query with late binding (Developer Guide for Dynam
 description: "This sample shows how to create .NET Language-Integrated Query (LINQ) queries using late-bound entities"
 ms.custom: 
 ms.date: 02/05/2020
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -50,3 +50,6 @@ Download the complete sample from [Sample: Query data using LINQ](https://github
  [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>     
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.CreateQuery(System.String)>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

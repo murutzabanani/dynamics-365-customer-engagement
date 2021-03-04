@@ -1,5 +1,5 @@
 ---
-title: "Help resources for Dynamics 365 Sales (Enterprise) | Microsoft Docs"
+title: "Help resources for Dynamics 365 Sales Enterprise | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales."
 ms.date: 10/14/2019
 ms.service:
@@ -10,7 +10,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Help resources for Dynamics 365 Sales (Enterprise)
+# Help resources for Dynamics 365 Sales Enterprise
 
 <table>
 
@@ -70,10 +70,12 @@ manager: annbe
 <tr><td>
 
 <h2>Develop</h2>
+<li><a href="../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md" data-raw-source="[Sales entities (lead, opportunity, competitor, quote, order, invoice)](../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md)">Sales entities (lead, opportunity, competitor, quote, order, invoice)</a></li>
 <li><a href="../sales-enterprise/developer/enable-sales-order-processing-integration.md" data-raw-source="[Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)">Enable sales order processing integration</a></li>
-<li><a href="../sales-enterprise/developer/reference/entities/export-forecast-data.md" data-raw-source="[msdyn_ForecastInstanceActions](../sales-enterprise/developer/reference/entities/export-forecast-data.md)">msdyn_ForecastInstanceActions</a></li>
-<li><a href="../sales-enterprise/developer/reference/playbook-entity-reference.md" data-raw-source="[Entity reference for playbooks](../sales-enterprise/developer/reference/playbook-entity-reference.md)">Entity reference for playbooks</a></li>
-<li><a href="../sales-enterprise/developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)">Custom plug-in handling using shared variable</a></li>
+<li><a href="../customerengagement/on-premises/developer/marketing-entities-campaign-list.md" data-raw-source="[Marketing entities (campaign, list)](../customerengagement/on-premises/developer/marketing-entities-campaign-list.md)">Marketing entities (campaign, list)</a></li>
+<li><a href="../customerengagement/on-premises/developer/goal-management-entities.md" data-raw-source="[Goal management entities](../customerengagement/on-premises/developer/goal-management-entities.md)">Goal management entities</a></li>
+<li><a href="../customerengagement/on-premises/developer/product-catalog-entities.md" data-raw-source="[Product catalog entities](../customerengagement/on-premises/developer/product-catalog-entities.md)">Product catalog entities</a></li>
+<li><a href="developer/developer-guide.md" data-raw-source="[More help resources for developers...](developer/developer-guide.md)">More help resources for developers...</a></li>
 </td>
 <td>
 <h2>GDPR</h2>
@@ -90,9 +92,12 @@ manager: annbe
 <h2>Resources for other Sales apps</h2>
 <li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 Sales Insights](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 Sales Insights</a></li>
 <li> <a href="../sales-professional/help-hub.md" data-raw-source="[Help resources for Dynamics 365 Sales Professional](../sales-professional/help-hub.md)">Help resources for Dynamics 365 Sales Professional</a></li>
-<li> <a href="../sales-professional/sales-professional-overview.md" data-raw-source="[Overview](../sales-professional/sales-professional-overview.md)">Overview</a></li>
+<li> <a href="../sales-professional/sales-professional-overview.md" data-raw-source="[Dynamics 365 Sales Professional Overview](../sales-professional/sales-professional-overview.md)">Dynamics 365 Sales Professional Overview</a></li>
 <li><a href="sales-team-member.md" data-raw-source="[Sales Team Member app for users with Team Member license](sales-team-member.md)">Sales Team Member app for users with Team Member license</a></li>
 </td>
 </tr>
 
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

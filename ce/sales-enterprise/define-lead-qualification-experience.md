@@ -8,6 +8,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-lead
+  - D365-UI-*
+  - Customer Engagement
+  - Dynamics 365
+  - Sales
 ---
 
 # Define lead qualification experience
@@ -46,3 +53,6 @@ To go to this setting:
 ### See also
 [Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)  
 [Create or edit leads](create-edit-lead-sales.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

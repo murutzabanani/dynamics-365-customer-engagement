@@ -3,7 +3,7 @@ title: "Web API Helper code: Configuration classes (Developer Guide for Dynamics
 description: "Configuration class hierarchy can be used to specify the required connection data for accessing Dynamics 365 Customer Engagement web services from your application"
 ms.custom: 
 ms.date: 01/25/2019
-ms.reviewer: susikka
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -407,3 +407,6 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
  [Helper code: Authentication class](web-api-helper-code-authentication-class.md)   
  [Helper code: CrmHttpResponseException class](web-api-helper-code-crmhttpresponseexception-class.md)   
  [SDK samples Helper code for Organization Service endpoint](https://www.nuget.org/packages/Microsoft.CrmSdk.Samples.HelperCode-CS)  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

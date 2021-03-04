@@ -3,7 +3,7 @@ title: "Azure integration with Dynamics 365 Customer Engagement (Developer Guide
 description: "Learn about connecting Dynamics 365 Customer Engagement (on-premises) with the Azure platform by coupling the Dynamics 365 Customer Engagement (on-premises) event execution pipeline to the Azure Service Bus."
 ms.custom: 
 ms.date: 09/19/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -141,3 +141,6 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
  [Plug-ins for Extending Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)   
  [Understanding the Asynchronous Service](asynchronous-service.md)   
  [System Job (asyncoperation) Entities](asyncoperation-system-job-entity.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

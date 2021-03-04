@@ -3,7 +3,7 @@ title: "Sample: Retrieve the roles for an organization (Developer Guide for Dyna
 description: "The sample shows how to retrieve the roles for an organization by using the IOrganizationService.QueryBase) method."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -51,3 +51,6 @@ The `query` method retrieves all the roles that are present in an organization.
 
 This sample creates no records. No cleanup is required.
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

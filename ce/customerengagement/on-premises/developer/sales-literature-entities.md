@@ -3,7 +3,7 @@ title: "Sales literature entities (Developer Guide for Dynamics 365 Customer Eng
 description: "Create and manage sales literature items to associate attachments and articles to enrich an organization’s sales information."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -87,3 +87,6 @@ A *sales literature* item is the basic unit of the marketing encyclopedia in Dyn
  [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
   
  [Schedule and Appointment Entities](schedule-appointment-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

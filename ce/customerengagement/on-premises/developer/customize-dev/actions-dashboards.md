@@ -3,7 +3,7 @@ title: "Actions on dashboards (Developer Guide for Dynamics 365 Customer Engagem
 description: "Learn about performing actions such as create, retrieve, update, or delete, on organization-owned and user-owned dashboards. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -58,3 +58,6 @@ You can perform actions such as create, retrieve, update, or delete, on organiza
  [Dashboard Entities](dashboard-entities.md)   
  [Sample: Create, Retrieve, Update and Delete (CRUD) a Dashboard](sample-create-retrieve-update-delete-dashboard.md)   
  [Sample: Assign a User-Owned Dashboard to Another User](sample-assign-user-owned-dashboard-another-user.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

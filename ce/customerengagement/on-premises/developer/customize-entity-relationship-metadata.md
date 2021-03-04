@@ -3,7 +3,7 @@ title: "Customize entity relationship metadata (Developer Guide for Dynamics 365
 description: "The topic explains about working with entity relationships programmatically. Also, types of entity relationships and configuring associated menus."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -138,3 +138,6 @@ Entity relationships define the ways that entity records can be associated with 
  [Sample: Dump Entity Relationship Information to a File](org-service/sample-dump-entity-relationship-information-file.md)   
  [Entity and Attribute Mappings](customize-entity-attribute-mappings.md)   
  [Retrieve Records for Many-To-Many Relationships using Intersect Entities](org-service/retrieve-records-many-to-many-relationships-intersect-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

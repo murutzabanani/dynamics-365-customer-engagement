@@ -3,7 +3,7 @@ title: "Configure Azure integration with Dynamics 365 Customer Engagement (on-pr
 description: "The topic describes configuring Azure integration with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 05/16/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -80,3 +80,6 @@ For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises and 
 [Using the Provided Azure Plug-in](work-data-azure-solution.md)<br />
 [Writing a Listener for a Azure Solution](write-listener-application-azure-solution.md)<br />
 [Azure Platform – Getting Started](https://www.microsoft.com/windowsazure/learn/get-started/)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

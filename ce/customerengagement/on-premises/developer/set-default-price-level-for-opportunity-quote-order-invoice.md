@@ -3,7 +3,7 @@ title: "Set default price level for opportunity, quote, order, and invoice (Deve
 description: "Automatically set a default price level (price list) for an opportunity, quote, order, or invoice based on the sales territory of the user who creates or updates that entity."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -76,3 +76,6 @@ You can automatically set a default price level (price list) for an opportunity,
  [Opportunity Entities](opportunity-entities.md)   
  [Quote, order, and invoice entities](quote-order-invoice-entities.md)   
  [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

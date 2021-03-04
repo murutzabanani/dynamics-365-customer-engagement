@@ -151,10 +151,10 @@
 ## Extend with integration and solutions
 ### Manage your documents using SharePoint 
 #### [Overview](manage-documents-using-sharepoint.md)
-<!-- #### [Software requirements](sharepoint-document-management-software-requirements.md) -->
+#### [Software requirements](sharepoint-document-management-software-requirements.md)
 #### Set up
-<!-- ##### [Overview](set-up-sharepoint-integration.md)
-##### [Set up Dynamics 365 (online) and SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
+##### [Overview](set-up-sharepoint-integration.md)
+<!-- ##### [Set up Dynamics 365 (online) and SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
 ##### [Set up Dynamics 365 (online) and SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md) -->
 ##### [Set up Dynamics 365 on-premises and SharePoint Online](on-prem-server-based-sharepoint-online.md)
 ##### [Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)
@@ -165,8 +165,8 @@
 ##### [Create document location records](create-edit-document-location-records.md)
 ##### [Permissions required](permissions-required-document-management-tasks.md)
 #### Troubleshoot
-##### [Troubleshooting server-based authentication](troubleshooting-server-based-authentication.md)
-##### [Troubleshoot SharePoint integration](troubleshoot-set-up-sharepoint-online.md) -->
+##### [Troubleshooting server-based authentication](troubleshooting-server-based-authentication.md)-->
+#### [Troubleshoot SharePoint integration](troubleshoot-set-up-sharepoint-online.md)
 ### Connect to Microsoft Social Engagement
 #### [Connect, assign licenses, and reset](connect-microsoft-social-engagement.md)
 #### [Install the Social Selling Assistant](install-social-selling-assistant.md)

@@ -1,13 +1,21 @@
 ---
 title: "Create and manage quotes in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use quotes in Dynamics 365 Sales Professional to make formal offers for products with proposed prices to customers."
-ms.date: 06/23/2020
+ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-quote
+  - D365-Entity-salesorder
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Create and manage quotes in Dynamics 365 Sales Professional
@@ -18,7 +26,7 @@ If you've created your quote from an opportunity, you might have already added p
 
 You'll probably edit a quote multiple times as a sale progresses. Initially, you create a draft, and then you need to activate it when it's ready to go to a customer.
 
-When the customer accepts the quote, and you are ready to ship the products, you create an invoice. Otherwise, you close the quote as revised, canceled, or lost.
+When the customer accepts the quote, and you are ready to ship the products, you create an order or an invoice. Otherwise, you close the quote as revised, canceled, or lost.
 
 ## Create a quote from an opportunity
 
@@ -46,9 +54,6 @@ When the customer accepts the quote, and you are ready to ship the products, you
 9.  When your quote is ready to send to your customer, select **Activate Quote** at the top of the screen.
 
 After you activate the quote, you can create an invoice from it. More information: [Create and manage invoices in Dynamics 365 Sales Professional](create-invoices.md)
-
-> [!NOTE]
-> In Sales Professional, the Quote-Order-Invoice functionality is simplified to generate an invoice directly from a quote. Therefore, the **Create Order** button isn't available on the Quote form. 
 
 
 ## Create a new quote
@@ -79,7 +84,7 @@ After you activate the quote, you can create an invoice from it. More informatio
 
 ## Email a quote
 
-When you've added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a PDF file](create-quote-pdf-sales-professional.md#email-as-a-pdf-file)
+When you've added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a PDF file](create-quote-pdf-sales-professional.md#email-pdf)
 
 ## Close a quote
 
@@ -108,3 +113,6 @@ case, select **Yes**. If you don't want to revise the quote, set this field to *
 [Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

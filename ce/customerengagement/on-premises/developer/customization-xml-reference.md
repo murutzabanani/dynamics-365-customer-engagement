@@ -3,7 +3,7 @@ title: "Customization XML reference | MicrosoftDocs"
 description: "The customizations.xml file is one of the files included in an exported unmanaged solution. The file contains all or selected portions of the customizations and configurations for your system. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -44,4 +44,7 @@ The customizations.xml file is one of the files included in an exported unmanage
  [When to Edit the Customizations File](customize-dev/when-edit-customization-file.md)  
  [Edit the Customizations file with Schema Validation](customize-dev/edit-customizations-xml-file-schema-validation.md)  
  [Customize the Ribbon for Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-commands-ribbon.md)  
- [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)
+ [Change Application Navigation using the SiteMap](customize-dev/change-application-navigation-using-sitemap.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: "Define custom state model transitions (Developer Guide for Dynamics 365 
 descriptions: Learn about defining custom state model transistions for the Incident (Case) entity or custom entities.
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -85,3 +85,6 @@ You can specify custom state transitions for the `Incident` (**Case**) entity or
  [Record state and status](introduction-entities.md#bkmk_RecordStateandStatus)   
  [Retrieve and Detect Changes to Metadata](retrieve-detect-changes-metadata.md)   
  <!--[Define status reason transitions](https://go.microsoft.com/fwlink/p/?LinkId=393657)-->
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

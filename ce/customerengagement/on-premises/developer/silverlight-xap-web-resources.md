@@ -12,7 +12,7 @@ ms.assetid: 982189a4-93a9-44ee-99e0-7b8d85318cf4
 author: JimDaly
 ms.author: jdaly
 manager: amyla
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 search.audienceType: 
@@ -154,3 +154,6 @@ string entityTypeName = App.Current.Host.InitParams["typename"];
  [Using Data (XML) Web Resources](data-xml-web-resources.md)   
  [Using Image (JPG, PNG, GIF) Web Resources](image-web-resources.md)   
  [Using Stylesheet (XSL) Web Resources](stylesheet-xsl-web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

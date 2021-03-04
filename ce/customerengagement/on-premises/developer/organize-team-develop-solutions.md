@@ -3,7 +3,7 @@ title: "Organize your team to develop solutions (Developer Guide for Dynamics 36
 description: "This document lists down some strategies to use when multiple developers are working on the same solution"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -60,3 +60,6 @@ When multiple developers have to work on the same solution, you may want to crea
  [Planning for Solution Development](plan-solution-development.md)   
  [Modularize your Solutions](organize-solutions.md)   
  [White Paper: Deploying Dynamics 365 Customer Engagement (on-premises) Solutions from Development through Test and Production Environments](https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=27824)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

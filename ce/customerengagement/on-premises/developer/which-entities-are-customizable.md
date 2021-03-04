@@ -3,7 +3,7 @@ title: "Which entities are customizable? (Developer Guide for Dynamics 365 Custo
 description: "Learn about the entities properties that are customizable."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -173,3 +173,6 @@ Dynamics 365 Customer Engagement (on-premises) has 271 entities; of these, 98 en
  [Change Entity Icons](modify-icons-entity.md)   
  [Change Entity Messages](modify-messages-entity.md)   
  [Sample: Create and Update Entity Metadata](org-service/sample-create-update-entity-metadata.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

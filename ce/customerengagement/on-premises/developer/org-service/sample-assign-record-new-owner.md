@@ -12,7 +12,7 @@ ms.assetid: b8a256a4-e858-44bc-aff7-26b4d670fc61
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
@@ -64,3 +64,6 @@ To run this sample, the caller must have the privileges on the specified entity 
 ### Clean up
 
 Displays an option to delete all the data created in the sample. The deletion is optional in case you want to examine the data created by the sample. You can manually delete the data to achieve same results.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

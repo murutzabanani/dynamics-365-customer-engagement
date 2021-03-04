@@ -3,7 +3,7 @@ title: "Visualization data description schema (Developer Guide for Dynamics 365 
 description: "The following is the schema for the data description XML string for charts in visualization. This can be used to validate the contents of the data description XML string while creating a chart. "
 ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -91,3 +91,6 @@ The following is the schema for the data description XML string for charts in vi
  [Understanding Charts: Underlying Data and Chart Representation](understand-charts-underlying-data-chart-representation.md)   
  [Sample Charts](sample-charts.md)   
  [Use FetchXML to Construct a Query](../org-service/use-fetchxml-construct-query.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

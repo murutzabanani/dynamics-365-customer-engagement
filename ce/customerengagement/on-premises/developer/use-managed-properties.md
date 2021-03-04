@@ -3,7 +3,7 @@ title: "Use managed properties (Developer Guide for Dynamics 365 Customer Engage
 description: "Managed properties help you define which of the managed solution components can be customized"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -97,3 +97,6 @@ You can control which of your managed solution components are customizable by us
  [Maintain Managed Solutions](maintain-managed-solutions.md)   
  [Package and Distribute Extensions with Dynamics 365 Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
  <xref:Microsoft.Crm.Sdk.Messages.IsComponentCustomizableRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

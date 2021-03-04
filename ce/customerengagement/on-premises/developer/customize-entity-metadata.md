@@ -3,7 +3,7 @@ title: "Customize entity metadata (Developer Guide for Dynamics 365 Customer Eng
 description: "Entities are defined by metadata. By defining or changing the entity metadata, you can control the capabilities of an entity."
 ms.custom: 
 ms.date: 11/03/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -133,3 +133,6 @@ If working with Organization Service, use <xref:Microsoft.Xrm.Sdk.Messages.Retri
  [Sample: Create and Update an Emailable Entity](org-service/sample-create-update-emailable-entity.md)   
  [Sample: Dump Entity Metadata to a File](org-service/sample-dump-entity-metadata-file.md)   
  [Sample: Dump Entity Privlege Information to a File](org-service/sample-dump-entity-privilege-information-file.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

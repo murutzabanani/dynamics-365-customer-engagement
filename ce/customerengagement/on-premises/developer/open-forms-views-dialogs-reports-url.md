@@ -3,7 +3,7 @@ title: "Open forms, views, dialogs, and reports with a URL (Developer Guide for 
 description: "Learn more about URL addressable elements that enable you to include links to Dynamics 365 Customer Engagement (on-premises) forms, views, dialogs, and reports in other applications"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -231,3 +231,6 @@ function getReportURL(action,fileName,id) {
  [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md) 
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)   
  [Start Dialog by using a URL](../developer/actions-dialogs.md#StartDialog)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

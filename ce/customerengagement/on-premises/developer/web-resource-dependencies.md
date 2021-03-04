@@ -3,7 +3,7 @@ title: "Web resource dependencies (Developer Guide for Dynamics 365 Customer Eng
 description: "Learn about defining dependencies between web resources in Dynamics 365 Customer Engagement. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -68,3 +68,6 @@ Before this feature you would need to manually add the attribute to the form and
 [Sample: Pass multiple values to a  web resource through the data parameter](sample-pass-multiple-values-web-resource-through-data-parameter.md)<br />
 [Sample: Import files as web resources](sample-import-files-web-resources.md)<br />
 [Sample: Web resource utility](sample-web-resource-utility.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

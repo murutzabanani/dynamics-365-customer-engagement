@@ -12,7 +12,7 @@ ms.assetid: 5c83c1c2-25ef-480b-9195-6eabe9f6c4c7
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 13
@@ -56,3 +56,6 @@ The `BulkDetectDuplicatesRequest` method creates the BulkDetectDuplicatesRequest
 ### Clean up
 
 Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

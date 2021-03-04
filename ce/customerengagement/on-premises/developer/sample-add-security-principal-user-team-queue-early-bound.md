@@ -3,7 +3,7 @@ title: "Sample: Add a security principal (user or team) to a queue (early bound)
 description: The sample code demonstrates how to give a user or team access to a queue. The AddPrincipalToQueueRequest adds the specified principal to the list of queue members.
 ms.custom: 
 ms.date: 01/08/2020
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -58,3 +58,6 @@ The `AddPrincipalToQueueRequest` method adds the team to the queue.
 
 Display an option to delete the sample data in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

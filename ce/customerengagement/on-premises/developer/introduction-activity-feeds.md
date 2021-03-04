@@ -3,7 +3,7 @@ title: "Introduction to activity feeds (Developer Guide for Dynamics 365 Custome
 description: "The topic provides information about activity feeds terminology, definitions and entity model."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -147,3 +147,6 @@ As a developer implementing collaboration scenarios with  activity feeds, you sh
  [Blog Post: Data management for Activity Feeds entities](https://blogs.msdn.com/b/crm/archive/2011/11/18/data-management-for-activity-feeds-entities.aspx)   
  [Blog Post: How to Add a Record Wall to a Form](https://blogs.msdn.com/b/crm/archive/2011/11/09/how-to-add-a-record-wall-to-a-form.aspx)   
  [Blog Post: Activity Feeds Solution & Development Environment](https://blogs.msdn.com/b/crm/archive/2012/01/26/activity-feeds-solution-amp-development-environment.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

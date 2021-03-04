@@ -3,7 +3,7 @@ title: "Time zone entities (Developer Guide for Dynamics 365 Customer Engagement
 description: "The time zone entities contain time zone information, such as supported time zone, time zone code, localized time zone, storing information on how times are calculated."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -55,3 +55,6 @@ The *time zone* entities can be used when you write code that works in multiple 
  [timezonerule EntityType](entities/timezonerule.md)   
  [Sample: Retrieve Time Zone Information](sample-retrieve-time-zone-information.md)   
  [Transaction Currency (Currency) Entity](transaction-currency-currency-entity.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

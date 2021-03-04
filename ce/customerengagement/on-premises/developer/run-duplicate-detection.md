@@ -3,7 +3,7 @@ title: "Run duplicate detection (Developer Guide for Dynamics 365 Customer Engag
 description: "Execute duplicate detection for a specific record, entity type, or during create or update operations."
 ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 08699dd9-623a-4fee-8b2e-fba850cc2a58
 caps.latest.revision: 39
-author: susikka
-ms.author: susikka
+author: phecke
+ms.author: pehecke
 manager: amyla
 search.audienceType: 
   - developer
@@ -206,3 +206,6 @@ See more on how to detect duplicates during Create and Update operation in [Mana
  [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)   
  [Use Messages (Request and Response Classes) with the Execute Method](org-service/use-messages-request-response-classes-execute-method.md)   
  [Duplicate Detection Messages](duplicate-detection-messages.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

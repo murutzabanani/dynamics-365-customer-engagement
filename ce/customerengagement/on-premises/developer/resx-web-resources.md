@@ -3,7 +3,7 @@ title: "String (RESX) web resources (Developer Guide for Dynamics 365 Customer E
 description: "Learn about using string web resources to make localized strings available for use in Dynamics 365 Customer Engagement. "
 ms.custom: 
 ms.date: 12/28/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -59,3 +59,6 @@ The appropriate string value will be determined by the individual user’s langu
 [Sample: Pass multiple values to a  web resource through the data parameter](sample-pass-multiple-values-web-resource-through-data-parameter.md)<br />
 [Sample: Import files as web resources](sample-import-files-web-resources.md)<br />
 [Sample: Web resource utility](sample-web-resource-utility.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

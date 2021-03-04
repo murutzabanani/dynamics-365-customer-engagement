@@ -3,7 +3,7 @@ title: "Sample: Collaborate with activity feeds| MicrosoftDocs"
 description: The sample shows how to create posts with comments and mentions and how to follow Dynamics 365 Customer Engagement (on-premise) records. It also demonstrates how to retrieve information for the personal and record walls.
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -70,3 +70,6 @@ Display an option to delete the sample data created in [Setup](#setup). The dele
  [Post Entity](entities/post.md)   
  [PostComment Entity](entities/postcomment.md)   
  [PostFollow Entity](entities/postfollow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: "Streamline JavaScript web resource development using Fiddler AutoRespond
 description: "Learn about how to setup and use AutoResponder in Fiddler for local debugging of JavaScript web resources."
 ms.custom: 
 ms.date: 09/18/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -11,8 +11,8 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: E197DEB3-7461-48D4-80D4-C0BFC8AC80A1
-author: susikka
-ms.author: susikka
+author: phecke
+ms.author: pehecke
 manager: shujoshi
 search.audienceType: 
   - developer
@@ -82,3 +82,6 @@ By following the above steps, Fiddler is configured to listen to the requests an
 [Web resources for Customer Engagement (on-premises)](web-resources.md)<br />
 [Use JavaScript with Customer Engagement (on-premises)](use-javascript.md)<br />
 [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

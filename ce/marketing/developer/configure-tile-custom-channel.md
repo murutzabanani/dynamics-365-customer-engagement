@@ -1,34 +1,32 @@
 ---
-title: "Step 2: Configure the tile for custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Step 2: Configure the tile for custom channel (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn about how to configure a Tile for a custom channel in Dynamics 365 Marketing."
+ms.date: 08/18/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-ms.date: 04/01/2018
-ms.service: crm-online
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: db4ef53d-8a48-4b27-899f-8f4c788bc43c
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+  - dyn365-marketing
+ms.topic: how-to
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Step 2: Configure the tile for custom channel
 
-
-Custom channel is exposed as a “tile” in the customer journey designer. You define the tile using 2 files: an XML file and a CSS file.
+Custom channel is exposed as a “tile” in the customer journey designer. You define the tile using two files: an XML file and a CSS file.
 
 ## Define the Tile XML file
 
 Define tile properties of the custom Tile in an XML file. The XML file name should be in the following format: **\<SolutionPublisherPrefix>_\<FileNamePrefix>CustomerJourneyDesignerTileConfig.xml**.
 
-For example, if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](/powerapps/maker/common-data-service/change-solution-publisher-prefix) in your Dynamics 365 Marketing instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml** 
+For example, if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](/powerapps/maker/common-data-service/change-solution-publisher-prefix) in your Dynamics 365 Marketing instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml**
 
-### Sample Tile XML file 
+### Sample Tile XML file
 
 The following is a sample Tile XML file. Description of the elements in the XML file is available later in this topic:
 
@@ -49,7 +47,7 @@ The following is a sample Tile XML file. Description of the elements in the XML 
     <EntitySetName>sample_specialmessages</EntitySetName>
     <TitleFieldName>sample_name</TitleFieldName>
     <ComplianceField>donotphone</ComplianceField>
-    <!-- optional -->
+    <!-- mandatory -->
     <!-- Lookup view id for your entity-->
     <LookupViewId>4112769C-F12D-4F63-B8C3-9068FECBB4E9</LookupViewId>
     <!--Quick view form id for your entity -->
@@ -156,15 +154,15 @@ The XML file has the following elements:
     </tr>
     <tr>
     <td>LookupViewId</td>
-    <td>Lookup view ID for the custom entity. Optional.</td>
+    <td>Lookup view ID for the custom entity.</td>
     </tr>
     <tr>
     <td>QuickViewFormId</td>
-    <td>Quick view form ID for the custom entity. Optional.</td>
+    <td>Quick view form ID for the custom entity.</td>
     </tr>
     </table>
 
-- **ResponseTypes**: Add information about the expected reponse types. The **id** property defines the name or the Id of a response type. The **Labels** element lets you specify localized labels for the response type. Use the **locId** property in the **Label** element to specify localized label names. For example:
+- **ResponseTypes**: Add information about the expected response types. The **id** property defines the name or the ID of a response type. The **Labels** element lets you specify localized labels for the response type. Use the **locId** property in the **Label** element to specify localized label names. For example:
 
     ```xml
     <ResponseTypes>
@@ -246,3 +244,6 @@ sample_SpecialTileCustomerJourneyDesignerTileConfig.xml so the example uses 'sam
 > [Step 3: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)
 
   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

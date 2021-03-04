@@ -3,7 +3,7 @@ title: "Asynchronous operation states (Developer Guide for Dynamics 365 Customer
 description: "Learn about the asynchronous operation states, which can be waiting to run, it can be running, or it can be completed."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -90,3 +90,6 @@ After asynchronous operations are added to the asynchronous queue, they exist in
  [Asynchronous Service](asynchronous-service.md)   
  [Asynchronous Operation (system job) Entity](asyncoperation-system-job-entity.md)   
  [Dependency and execution order in asynchronous operations](dependency-execution-order-asynchronous-operations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

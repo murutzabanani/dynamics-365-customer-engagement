@@ -3,7 +3,7 @@ title: "Create a visualization (chart) (Developer Guide for Dynamics 365 Custome
 description: "The topic shows how to create a chart visualization and a web resource visualization. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -100,3 +100,6 @@ _orgOwnedVisualizationId = _serviceProxy.Create(newWebResourceVisualization);
  [Sample Charts](sample-charts.md)   
  [Data Visualization and Analytics](customize-visualizations-dashboards.md)   
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a Chart](sample-create-retrieve-update-delete-chart.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,18 +1,195 @@
+## 3.12.42.4 - 2021 wave 1 Early access update 1
+
+The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 1](https://docs.microsoft.com/en-us/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
+
+In addition, this release includes the following changes that have the potential to change the existing system behavior or interface.
+
+- Fixed a bug where the tooltip of a button **Return** on the new schedule board's embedded optimizer, is not localized. 
+- Fixed a bug on the new schedule board, where certain bookings with travel time were not shown on the board; only the travel time was shown instead. With this fix, the bookings with travel time are shown as expected on the new schedule board. 
+- When details view on the old schedule board is used for resources and a resource view is used where resource timezone is included as a field on the view, the timezone was displayed incorrectly as just a number. This bug is now fixed. 
+- When requirement priority name is set to null, the schedule board would throw an error while loading. This bug is now fixed to handle null values on the requirement priority record names. 
+
+## 3.12.40.15 - 2021 wave 1 Early access
+
+The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features#scheduling) new and updated features. 
+
+In addition, this release includes the following changes that have the potential to change the existing system behavior or interface. 
+
+- Fixed a bug on the new schedule board when a requirement is dragged and dropped into the daily view, the **Create Booking** pane shows incorrect start and end dates. 
+- When hovered on disabled buttons on the new schedule board, tooltips were not being shown. This bug is now fixed. 
+- When the date format is set to English (United Kingdom), the date fields on the "Create resource booking" pane of schedule assistant were not respecting the above date format selected. This bug is now fixed.
+
+## 3.12.36.2
+
+- Fixed a bug where resources with certain workhours calendar types (type = -1) were not returned by the schedule assistant.
+- When the date format is set to English (United Kingdom), the date fields on the create resource booking pane of schedule assistant were not respecting the above date format selected. This bug is now fixed.
+- When a schedule board tab’s setting requirement map filter view is configured to a resource requirement entity view that has a view definition including link entity filtering does not contain data, the map view on the tab, does not load. This bug is now fixed. 
+- Keyboard navigation and selection issues on the "Characteristics – Rating" filter on the filter view of the schedule board are fixed. 
+- When creating bookings for crew type resources using the schedule assistant, the travel times were incorrectly calculated from the organization unit of the crew resources. This bug is fixed, and the travel time is calculated from the location of the crew member resources. 
+- When appointment scheduling feature is enabled, non-admin users were unable to mark the appointment record as complete. This bug is now fixed. 
+- When certain filter panel customizations were used in the old schedule board, and access the bottom filters of the panel, the filter panel jumps to the top. This jump experience issue is now fixed. 
+- When multiple child requirements are defined under a requirement group, there were intermittent timeout issues thrown. We fixed this bug by increasing the timeout duration.
+- When apply territory filter setting is selected on the schedule board scheduler settings, on slow networks, this setting was not applying the territory filter on the bottom requirement panel. This bug is now fixed to make the territory filtering on the requirement panel work even in slow or latent networks.
+
+
+## 3.12.35.6
+
+This release is a hotfix on Universal Resource Scheduling version [3.12.35.5](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/bug-fixes#312355)
+- We fixed a bug that impacted the performance of the Schedule assistant. 
+
+## 3.12.35.5
+
+- When creating Bookings for Facility type Resources using Quick Book, the travel time is incorrectly added to the total duration of the Booking. This behavior is now fixed, and with the fix, the travel time is excluded from the total duration of the booking for Facility type resources. 
+- For geographical regions, where Bing maps has no coverage, (ex: China, South Korea, and Japan), the distance and travel time calculations to the booking locations are calculated to the approximated values via **As The Crow Flies** (ATCF) method. 
+- Fixed a bug where, the displayed time range on the Schedule Board (old) is less than a day, then Resources routes are not displayed on the Map view. 
+- Made some performance enhancements to improve Schedule Assistant response time. 
+
+## 3.12.34.92
+
+This release is a hotfix on Universal Resource Scheduling version [3.12.34.60](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/bug-fixes#3123460)
+- We fixed a bug that impacted the performance of the Schedule assistant. 
+
+## 3.12.34.60
+
+This release is a hotfix on Universal Resource Scheduling version [3.12.34.4](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/bug-fixes#312344)
+- Fixed a bug where resources with certain workhours calendar types (type = -1) were not returned by the Schedule Assistant.
+
+## 3.12.34.4
+
+- Fixed a bug where schedule assistant and schedule board ignore start and end time inputs when duration is more than 24 hours when scheduling an opportunity record. 
+- Fixed a bug where the search button remains disabled when **Time To Promised** is initially greater than search end, even if parameters are adjusted.
+- Fixed a bug where a validation error occurred for ```bookableresourcebooking.msdyn_milestraveled```. The value -0.999999690624 of type ``System.Double`` is outside the valid range (0 to 1000000000). 
+- Booking tooltip on multiday views now shows in the correct booking length on the current schedule board and the next-generation schedule board.
+- Fixed a bug where the booking is created with an incorrect duration when a user tries to create a booking using the quick book option.
+
+## 3.12.33.8
+
+- When quick book is enabled on a schedulable entity and the requirement record is generated post booking record creation, the from date, to date, and duration attributes on booking setup metadata record were not correctly mapped to the from date, to date, and duration fields of the resource requirement generated. This bug is now fixed.
+- When Universal Resource Scheduling is used as the scheduling engine for appointments, and a system user, who does not have an associated bookable resource record, creates an appointment throws an error. This bug is now fixed.
+- Fixed a bug on the legacy schedule board, where selecting an empty timeslot on the board, and on searching for lookup records, all resource requirement records in the system show up instead of those matching the selected requirement panel at the bottom.
+- Fixed an issue where non-admin Field Service users cannot update the Booking records due to insufficient privilege on entity ```msdyn_schedulingfeatureflag```. This bug is now fixed.
+- When a booking is canceled on the schedule board and then the work order (or requirement) record is again dragged to the same resource after the canceled booking, the travel time is incorrectly calculated as zero from the previous canceled booking. This bug is now fixed and the travel time is correctly calculated from the previous resource location.
+- Fixed an issue where, custom ```DateTime``` fields from requirement record’s associated entities like work order are not respecting schedule board tab time zone in requirements panel. With this fix, all ```DateTime``` fields on the requirement panel will be shown in the time zone of the schedule board tab.
+- When a work hours template with a time off is applied to another resource, the time off description and title were not getting copied. This bug is now fixed.
+- When a multi-day booking is created with out an associated resource requirement record, changing Booking status on the booking, throws an error, this issue is now fixed.
+- The schedule assistant calculates the distance and travel time for the Resources to the booking via the default map provider Bing, this is only enabled when the field “connect to maps” is set to yes. There was an issue where regardless of the value selected, schedule assistant always used the default map provider to calculate distance and travel time. This bug is now fixed.
+- Fixed an issue where updates to the bookings of a crew type resource are not made, when booking rules are used. This bug is now fixed. Updates to the crew bookings will be made, even when booking rules are used.
+- Fixed scroll jumping issue on the filter pane of the legacy schedule board for certain custom filter panel layouts.
+- Fixed an issue where there are multiple time-off hours are used on a single day for a resource, the working hours are not correctly calculated, and so incorrect working hours are reflected on the schedule board.
+- Incomplete resource available time slots were shown on the legacy schedule assistant grid view when the fulfillment preferences intervals were used on the resource requirement record. This issue is now fixed, and the complete resource available timeslots are shown.
+- When quick book is enabled and used, the resource available time slots would respect the "Book based on" setting on the default schedule board settings and will show the resource available timeslots based on value chose for **Book based on** - **Estimated arrival time** or **Start Time**.
+
+## 3.12.32.1
+
+ - Fixed a bug on the legacy schedule board, when find **Substitution functionality** is used with in the schedule assistant, the UI was frozen. With this bug fix, **Find Substitution*** functionality can be used with in the schedule assistant mode. 
+ - Fixed a bug on the List view mode of the daily view of new schedule board, where changing a booking status doesn’t reflect in the view. Now with the fix, the changed status will also reflect in the list view. 
+ - Fixed a bug on the new schedule board where, the resource names are truncated when using right-to-left languages like Arabic. 
+ - Fixed a label on the schedule assistant panel to show as **Booking suggestions**. 
+ - Additional stabilization improvements were made on the new schedule board to prevent crashes on the board the schedule assistant panel, which is a feature in preview. 
+
+## 3.12.31.50 - 2020 wave 2 general availability
+
+The following Universal Resource Scheduling 2020 Wave 2 features in general availability are included in this release.
+
+- Next generation schedule board experience
+- Predictive work duration (Preview)
+- Enhanced calendar for requirements
+- Embedded optimizer within schedule board (Preview)
+
+This release also includes all the fixes included in the [2020 wave 2 early access](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#version-312295-2020-wave-2-early-access) and [2020 wave 2 early access update 1](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#version-3123011-2020-wave-2-early-access-update-1).
+- Fixed a bug on the map view of the schedule board, where scheduled requirements with remaining duration equals 0 are still being shown as unscheduled requirement pin, leading to double requirements. With this fix, once a requirement is scheduled and Remaining duration equals 0, the pin will not be displayed as a requirement pin. 
+- The days on the daily view of the schedule board are shown in right-to-left orientation for the right-to-left languages like Hebrew, Arabic. 
+- Fixed a bug where a new requirement record is created, the status of the requirement record created is not respecting the **Default Requirement Active State** value of the associated booking setup metadata record of the requirement. This bug is now fixed, and the default status of the newly created Requirement record will be based on the default requirement active status of the associated booking setup metadata record.
+- When creating a booking for requirement groups using the quick scheduling feature, fixed a bug where the resulting errors (if any) were not surfaced to the end user. Now if there are any errors during the creation of the Bookings, error message will be displayed on the quick book interface. 
+- When fulfillment preferences (intervals) are used on requirements, the schedule assistant shows the timeslots, and the first timeslot will be shown after the **Intervals begin** time. 
+- Fixed a bug in the msdyn_SearchResourceAvailabilityForRequirementGroup API, where the last available timeslot of a time range are not being returned. 
+- Added new additional solution health rules to detect if the following records are missing: 
+ - Default schedule board setting.
+ - Schedule board setting for the resource utilization view of the schedule board. 
+ - Unsupported modification of the OOB web resources.
+- When a resource on the booking is substituted with another resource on the schedule board and then find availability is used, fixed a bug where an error was thrown. 
+- The date field on the schedule assistant list view is now fixed to respect the date formatting preferences of the user. 
+- Fixed a bug where a booking is created using **Find Availability** functionality, and the booking method field is displayed as **Schedule Board**. This is fixed to show the booking method as **Schedule Assistant**.
+- Fixed a bug where looking for available resources on the requirement groups, and **Least Busy** option on the schedule assistant is used, Resources returned were not in the right order. This is fixed and only the least busy resources are returned on the top. 
+- When preferred resource of resource preferences is used on the resource requirement record, the preferred resources are not returned on the top of the recommended resources using quick scheduling. This bug is fixed, and the preferred resources are returned on the top. 
+- Fixed a bug on the schedule board maps view, where the date picker is not displayed when number of days displayed on the board is greater than one. This is now fixed, and the map view will display the date picker to show the map data of a specific day. 
+- On the new schedule board, fixed an issue, where a resource is marked as **Display on Schedule Board** as **No**, resource is still being shown on the schedule board.
+
+## 3.12.25.5
+
+- On the daily view mode of the schedule assistant, when **Ignore Duration** advanced setting is selected, all eligible resources were not returned regardless of their availability. This bug is now fixed in this update. 
+- Fixed a bug where quick book is used on a requirement group, and resources work in a different time zone than the time zone of the calendar of the requirements in the group, only a part of the available timeslots were returned. With the fix, all available time slots are returned in this scenario. 
+- When searching for resources in the daily view of the schedule board: once the searched Resources are returned, bookings of the resources are not returned on the center area, until the board is refreshed. This bug is now fixed in this update.
+- When a default search radius unit of kilometers is used and no available resources are returned, the schedule assistant crashes. This bug is now fixed, and users can expand the filter panel, even when no resources were returned to change the filters on the filter pane. 
+- When quick book is used on a work order with an associated requirement group, and a resource is booked, **Booking Status selected is invalid for Work Order** error is thrown. This issue is now fixed. 
+- When looking for available resources on a service activity record and **Least Busy** sort is selected, no available resources were returned. This is now fixed on the schedule assistant. 
+- Quick book will honor the default resource search radius defined on the booking setup metadata record of the schedulable entity (for example, work order, case, resource requirement, and so on).
+- When any changes are made to a booking (like moving the booking or reassigning the booking), the custom booking rules defined by the user would get triggered. But extending  existing booking would not trigger the booking rule. This bug is now fixed. 
+- When fulfillment preferences (intervals) are used with a requirement group, the start date of the schedule assistant filter pane is populated incorrectly, which is now fixed in the update. 
+- Schedule board center-area grid is misaligned when browser zoom is changed to 80 percent or 110 percent on Microsoft Edge and Google Chrome browsers. With this fix, the misalignment of the grid is fixed. 
+- Fixed a bug where a custom entity cannot be enabled for scheduling, when the name of the entity has more than 100 characters. With this fix, any entity that has a name with more than 100 characters can also be enabled for scheduling. 
+
+## 3.12.30.11 - 2020 wave 2 early access update 1
+
+The release is only applied when an environment is opted into early access and introduces the [resource scheduling 2020 wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
+
+In addition, this release includes the following changes that have the potential to change the existing system behavior or interface:
+
+- When searching for resources in the daily view of the schedule board: Once the searched resources are returned, bookings of the resources are not returned on the center area, until the board is refreshed. This bug is now fixed in this update.
+- When different capacities are used for a resource before and after a break, (for example 11 AM to 12 PM, working with capacity is 1; 12 PM to 1 PM is a break, and 1 PM to 2 PM, working with capacity 2) then the break time is shown as working time on the schedule board. This bug is fixed in this update. 
+- Fixed a bug where quick book is used on a requirement group, and resources work in a different time zone than the time zone of the calendar of the requirements in the group, only a part of the available time slots were returned. With the fix, all available time slots are returned in this scenario.
+- Fixed a bug where the search time window of the resource requirement is greater than the time range displayed on the schedule board and schedule assistant, the resource booked hours capacity on the resource cell were not displayed. The expand and collapse button next to the resource in daily, weekly, and monthly views were also not displayed.
+- When you enable any entity for scheduling (for example, case, lead, account), enable quick book feature on the booking setup metadata record of this schedulable entity, and set **Disable Requirement Auto Creation for Bookings** to yes. The resource requirement records will not be generated post the creation of the booking record.
+
+## 3.12.29.5 - 2020 wave 2 early access
+
+The release is only applied when an environment is opted into early access and introduces the [resource scheduling 2020 wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
+
+In addition, this release includes the following changes that have the potential to change the existing system behavior or interface:
+
+- Fixed a bug where a booking rule is used and throws a custom notification on the schedule assistant’s **Create Resource Booking** pane, the **Booking created successfully** was not being displayed. Now with the fix, even when booking rules are defined, the booking creation success notification will be displayed. 
+- When a custom date format (for example, dd/mm/yyyy) is used, the booking tooltip's displayed start time and end time are displayed incorrectly. This bug is now fixed. 
+- Use openWebResource API to open schedule assistant in the client-side tools like Unified Service Desk, so that no custom actions need to be called to open the schedule assistant. 
+- For organizations using Japanese language, in the schedule board’s date picker control now shows the right string in Japanese for the months displayed. 
+- For organizations using right-to-left languages like Arabic as their base language, the short weekday names are now displayed on the date picker of the schedule board. Also fixed tooltip positioning issue for different components of the schedule board. 
+- Fixed navigation using keyboard tab key on the move bookings to a different Day dialog of the schedule board, to move the focus from the booking statuses picker to the ok button, after a booking status is selected. 
+- When a requirement status record is used as a default requirement status in the booking setup metadata record of a schedulable entity, the deletion of the requirement status record will not be restricted. 
+- On the schedule board, the fields on the booking tooltip with long strings were truncated. With this fix, the long strings will be word wrapped into a new line. 
+- When an open area is selected on the schedule board, a pane opens with a lookup for the resource requirement record. Fixed a bug where the default view on this lookup was not changeable. With this fix, the resource requirement view can be changed to any other active view of the resource requirement entity. 
+- On the client extension entity form, the lookup field for the web resource is fixed to show all the WebResource lookup views for CSS, JavaScript, and RESX views. 
+- Fixed a bug when requirement groups are used with the work orders; on the schedule assistant, the booking status drop-down on the **Create Resource Booking** pane shows not just the booking statuses of the work order, but also related to other entities. With this fix, the booking status drop-down now only shows the booking statuses of the work order. 
+- When a resource requirement record and a bookable resource are selected on the schedule board, and the book button is selected, the **Create Resource Booking** pane opens up with the start and end dates populated based on the requirement selected. When the resource selection is changed, the selected start date and end date are being reset. This bug is now fixed. 
+- Improved the tooltip description of the field **Actual Travel Duration** field on the scheduling tab of the bookable resource booking to **Shows the total travel duration. Calculated based on the difference between the Bookable Resource Booking's Start Time and Actual Arrival Time.**
+- The edit button on the business closure ribbon is hidden, as this button had no action on the business closure records in the view. 
+- Removed unnecessary debug console messages for the business closure entity views. 
+- When a new business closure record is created, the duration field is calculated incorrectly by adding an additional day. This bug is now fixed, and the duration field is calculated based on the start time and end time selected. 
+- When a requirement status record is created and saved, the requirement status lookup field is read-only, so that this value cannot be changed once the record is saved.
+- When a requirement has multiple booking records associated, and one of the booking’s resources is not active, the deactivated resource is filtered, and the uncaught exception is handled. 
+- Fixed a bug with the timeslot selection on the create resource Booking pane. With this fix, when **Book Based on** setting is set to **Estimated Arrival**, and the user selects a suggested time in the schedule assistant, the time they select is populated as the estimated arrival time in the booking panel. When **Book based on** setting is set to **Start Time**, and the user selects a suggested time in the schedule assistant, the time they select is populated as the start time in the booing panel. 
+- Added additional checks on the schedule board default settings to prevent schedule board crash with the **Object reference not set to an instance of an object** error. 
+- Fixed a bug where the focus on the resource search control on the weekly view of the list view type of the schedule assistant is lost when typing the resource name.
+- The custom date format is now supported on the quick book pane. 
+- When a booking is created on the schedule board with duration of zero minutes, **Duration must be greater than 0 minutes** is displayed in English on non-English orgs. This bug is fixed, and the string is now localized.
+
+## 3.12.24.5
+
+- Fixed a bug where the search time window of the resource requirement is greater than the time range displayed on the schedule board and schedule assistant, the resource booked hours capacity on the resource cell were not displayed. The expand and collapse button next to the resource in daily, weekly, and monthly views were also not displayed.
+
 ## 3.12.24.4
 
 - When you enable any entity for scheduling (for example, case, lead, account), enable **Quick Book** feature on the **Booking Setup Metadata** record of this schedulable entity, and set **Disable Requirement Auto Creation for Bookings** to yes. The resource requirement records will not be generated post the creation of the booking record. 
 - The bug where there are multiple pages of available resources suggested on the schedule assistant, only the resources in the first page set were shown and resources on higher pages were not shown. This bug is fixed, and paging through to next pages, resources will be shown as expected.
-- When there are multiple workhours are entered on the same day for a resource (for example, 8 AM to 3:30 PM and 2 PM to 5 PM), there was a bug where the resource workhours calendar was only showing workhours as 2 PM to 5 PM. With this fix, the calendar for the resource would show that the resource is working 8 AM to 5 PM. Also, the same should be reflected on the schedule board. 
-- When a resource has working hours (for instance, 9 AM to 5 PM on a day) and has a time off 12 PM to 1 PM, there is a bug where schedule board shows that the resource has no working hours on that day, though the time off is for only one hour. This bug is fixed, and with this fix, the resource should show as working from 9 AM to 12 PM and 1 PM to 5 PM on the schedule board. 
+- When there are multiple work hours are entered on the same day for a resource (for example, 8 AM to 3:30 PM and 2 PM to 5 PM), there was a bug where the resource work hours calendar was only showing work hours as 2 PM to 5 PM. With this fix, the calendar for the resource would show that the resource is working 8 AM to 5 PM. Also, the same should be reflected on the schedule board. 
+- When a resource has working hours (for instance, 9 AM to 5 PM on a day) and has time off 12 PM to 1 PM, there is a bug where schedule board shows that the resource has no working hours on that day, though the time off is for only one hour. This bug is fixed, and with this fix, the resource should show as working from 9 AM to 12 PM and 1 PM to 5 PM on the schedule board. 
 - When creating a resource requirement using a work hours template, performance improvements are made to reduce the time of creation for the resource requirement record. 
-- When the resource workhours are entered by using non-recurrence patterns for a large number of days, and large number of resources (for instance, more than 2000 resources in the org), when looking for available resources, the schedule assistant takes almost 40 seconds to load resources. Performance improvements are pushed as part of this fix, where in this case, the schedule assistant loads much faster (around five to ten seconds, largely based on the amount of data). 
+- When the resource work hours are entered by using non-recurrence patterns for a large number of days, and large number of resources (for instance, more than 2000 resources in the org), when looking for available resources, the schedule assistant takes almost 40 seconds to load resources. Performance improvements are pushed as part of this fix, where in this case, the schedule assistant loads much faster (around five to ten seconds, largely based on the amount of data). 
 
 ## 3.12.23.71
 
 - The issue with the filtering on the lookup type fields on the schedule board's requirement panel is fixed. 
 - When hovered on the bookings on the schedule board, the tooltip was shown instantly, which sometimes blocked the view or blocked using right-click on the bookings. This issue is now fixed by adding a hover delay. When hovered on the booking, tooltip will be displayed with a delay.
 
-## 3.12.23.26
+## 3.12.23.27
 
 - The rendering issue for tooltips on bookings of the schedule board is now fixed, by making the tooltip scrollable when the height of the tooltip is larger than the browser size. The hyperlinks on the tooltip can also be selected to open them in a new browser window.
 - The text **Hide default requirement panels** is now made visible on the schedule board tab settings under the **Requirement Panels** section, which was previously only partially visible.
@@ -25,7 +202,7 @@
 ## 3.12.22.9
 
 - For organizations that have [schedule board preview enabled](https://aka.ms/scheduleboard), the schedule board preview can be accessed from **Field Service** application sitemap along with **Universal Resource Scheduling** application sitemap.
-- Fixed an issue where booking tooltip blinks when the height of the tooltip is greater than the height of the visible center Gantt area, where bookings are displayed on the schedule board. With this fix, the tooltip would not blink and the user would be able to click on the hyperlinks on the tooltip to open the respective record in a new window.
+- Fixed an issue where booking tooltip blinks when the height of the tooltip is greater than the height of the visible center Gantt area, where bookings are displayed on the schedule board. With this fix, the tooltip would not blink and the user would be able to select the hyperlinks on the tooltip to open the respective record in a new window.
 - Fixed the issue where [intervals](https://docs.microsoft.com/dynamics365/common-scheduler/fulfillment-preferences#interval-setup) functionality of fulfillment preferences was not working on the schedule assistant.
 - Resolved the issue of duplicated time slots for the resources on the list view type of the days view of the schedule board.
 - Multiple calls to retrieve data in the list view type of the days view are reduced to one call, in order to improve schedule board performance.
@@ -200,7 +377,7 @@
 ## 3.10.0.239
 
 - Only valid hex characters can be entered on the status color field on booking status form.
-- The overlapping bookings in the vertical view of the schedule board are separated by 1 px spacing.
+- The overlapping bookings in the vertical view of the schedule board are separated by 1-px spacing.
 - Non-working hours color name is consistent across the schedule board tab settings and the schedule board settings configuration record.
 - Long names will be wrapped inside the booking tooltip.
 - Deletion of a resource is not allowed if it has any group memberships active or inactive, parent, or child, has any associations active or inactive, resource 1 or resource 2.
@@ -365,7 +542,7 @@
 ### Enhancements
 
 - Improvements are made to the date time controls by leveraging the Office fabric UI control on the resource requirement, fulfillment preferences, and time group detail forms.
-- Scheduling Health Diagnostics provides capabilities to detect and suggest self-healing options with regards to:
+- Scheduling Health Diagnostics provides capabilities to detect and suggest self-healing options with regard to:
   - Unsupported customizations on internal use only web resources.
   - Actions and workflows that are in draft state.
   - Essential SDK message processing rules that are in disabled state.
@@ -390,7 +567,7 @@
 - Facility searched properly group results by organizational unit, regardless of the value in the "part of same" field on the requirement group control.
 - Resources that are location agnostic, yet are associated to a facility, will return in facility searches for the time they are associated to the facility.
 - Issue selecting pool type on schedule board filter panel while using Firefox browser.
-- Selecting cells in daily, weekly, and monthly boards while in schedule assistant now pass information to the booking panel properly.
+- Selecting cells in daily, weekly, and monthly boards while in schedule assistant now passes information to the booking panel properly.
 - Schedule boards that have characteristics with rating values saved no longer prompt user to enter a rating value.
 - Issue on certain devices where current timeline bar on schedule board wasn't showing correct time.
 - Work location on booking is now set properly when using drag and drop on schedule board.
@@ -454,7 +631,7 @@
 - Appointment schedule board settings are now generated properly.
 - Issues in certain scenarios where schedule board had issues loading in Internet Explorer.
 - "Supplied DateTime represents an invalid time" error.
-- Error message when schedule a single requirement to a crew resource.
+- Error message when scheduling a single requirement to a crew resource.
 
 ### Enhancements
 

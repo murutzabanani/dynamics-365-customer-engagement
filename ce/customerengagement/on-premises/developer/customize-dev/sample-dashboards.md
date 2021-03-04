@@ -3,7 +3,7 @@ title: "Sample dashboards | MicrosoftDocs"
 description: "The topic contains sample dashboards along with the respective FormXML strings. You can specify the FormXML string for a dashboard using the SystemForm.FormXml attribute for an organization-owned dashboard or UserForm.FormXml for a user-owned dashboard. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -210,3 +210,6 @@ This topic contains sample dashboards along with the respective FormXML strings.
 ### See also  
  [Dashboards for Microsoft Dynamics 365 Customer Engagement](analyze-data-with-dashboards.md)   
  [Dashboard Entities](dashboard-entities.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

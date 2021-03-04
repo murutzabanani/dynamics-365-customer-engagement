@@ -3,7 +3,7 @@ title: "Create goal hierarchy, goals, and targets (Developer Guide for Dynamics 
 description: "This article discusses how to create a goal hierarchy, set and monitor the targets, specify the time period and who manages and owns a goal"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -108,3 +108,6 @@ In preparation for goal management, you should specify a metric for a goal (amou
 ### See also  
  [Goal Management Entities](goal-management-entities.md)   
  [Define Goal Metric and Rollup Fields](define-goal-metric-rollup-fields.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

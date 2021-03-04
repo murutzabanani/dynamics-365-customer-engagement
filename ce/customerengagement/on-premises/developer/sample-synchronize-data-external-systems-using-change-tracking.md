@@ -3,7 +3,7 @@ title: "Sample: Synchronize data with external systems using change tracking (De
 description: "This sample code shows how to retrieve changes from an entity and synchronize data with external systems by using the RetrieveEntityChangesRequest message"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -57,3 +57,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Clean up
 
 Display an option to delete the managed solution imported in [Setup](#setup), which removes the `sample_book` entity and all the data created in the sample. The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the `ChangeTrackingSample` to achieve the same result.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

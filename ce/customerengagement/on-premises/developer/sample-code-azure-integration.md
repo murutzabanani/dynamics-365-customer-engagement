@@ -3,7 +3,7 @@ title: "Sample code for Dynamics 365 Customer Engagement (on-premises) and Micro
 description: "The section contains sample code for integrating Dynamics 365 Customer Engagement (on-premises) Customer Engagement and Azure through the Azure Service Bus."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -44,3 +44,6 @@ This section contains sample code for integrating [!INCLUDE[pn_dynamics_crm_onli
  [Plug-ins for Extending Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)  
   
  [Microsoft Azure Platform](https://go.microsoft.com/fwlink/p/?LinkId=237366)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

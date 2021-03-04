@@ -3,7 +3,7 @@ title: "Sample: Upload, retrieve, and download an attachment | Microsoft Docs"
 description: "The sample demonstrates how to upload, retrieve, and download an attachment for an annotation using the IOrganizationService.Entity) and IOrganizationService.ColumnSet) methods. "
 ms.custom: 
 ms.date: 11/24/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -52,3 +52,6 @@ Checks for the current version of the org.
 ### Clean up
 
 Displays an option to delete all the data created in the sample. The deletion is optional in case you want to examine the data created by the sample. You can manually delete the data to achieve same results.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

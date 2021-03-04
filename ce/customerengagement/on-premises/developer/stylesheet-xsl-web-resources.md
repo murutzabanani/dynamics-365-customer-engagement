@@ -3,7 +3,7 @@ title: "Stylesheet (XSL) web resources (Developer Guide for Dynamics 365 Custome
 description: "Learn about using Stylesheet (XSL) Web resources to transform XML data."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -175,3 +175,6 @@ td
  [Using Data (XML) Web Resources](data-xml-web-resources.md)   
  [Using Image (JPG, PNG, GIF) Web Resources](image-web-resources.md)   
  [Using Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: "Define ribbon commands (Developer Guide for Dynamics 365 Customer Engage
 description: "A Ribbon command creates a reusable definition that can be referenced by ribbon control elements."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -43,3 +43,6 @@ A *Ribbon* command creates a reusable definition that can be referenced by ribbo
  [Customize commands and the ribbon](customize-commands-ribbon.md)   
  [Use Localized Labels with Ribbons](use-localized-labels-ribbons.md)   
  [Define Ribbon Enable Rules](define-ribbon-enable-rules.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -56,11 +56,11 @@
 ## [Send bulk email](../basics/send-bulk-email-customers.md)
 
 # [Collaboration](../basics/collaborate-with-team.md)
-## [Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)
-## [Office 365 Groups FAQ](../basics/office-365-groups-dynamics-365-faqs.md)
+## [Microsoft 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)
+## [Microsoft 365 Groups FAQ](../basics/office-365-groups-dynamics-365-faqs.md)
 ## [OneDrive for Business](../basics/use-onedrive-business-manage-private-documents.md)
-## [OneNote](../basics/use-onenote.md)
-## [OneNote FAQs](../basics/onenote-dynamics-365-faqs.md)
+<!-- OneNote isn't supported with on-premises ## [OneNote](../basics/use-onenote.md)
+## [OneNote FAQs](../basics/onenote-dynamics-365-faqs.md)-->
 ## [SharePoint documents](manage-sharepoint-documents-document-locations-in-Dynamics-365-apps.md)
 
 # [Import and export data](../basics/import-export-data.md)
@@ -71,3 +71,5 @@
 ## [Export to Excel dynamic worksheet](../basics/export-excel-dynamic-worksheet.md)
 ## [Export to Excel static worksheet](../basics/export-excel-static-worksheet.md)
 ## [Export to Excel PivotTable](../basics/export-excel-pivottable.md)
+
+# [Use Dynamics 365 mobile app](dynamics-365-phones-tablets-users-guide-onprem.md)

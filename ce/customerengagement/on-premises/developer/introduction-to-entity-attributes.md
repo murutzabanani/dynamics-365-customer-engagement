@@ -2,7 +2,7 @@
 title: "Introduction to entity attributes (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -173,3 +173,6 @@ Entities include a set of attributes that represent the data that can be include
  [Calculated and Rollup Attributes](calculated-rollup-attributes.md)   
  [Sample: Retrieve Valid Status Transitions](sample-retrieve-valid-status-transitions.md)   
  [Sample: Set and retrieve entity images](sample-set-retrieve-entity-images.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

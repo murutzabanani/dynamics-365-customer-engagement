@@ -3,7 +3,7 @@ title: "Introduction to entity attributes (Developer Guide for Dynamics 365 Cust
 description: "Learn about entity attributes that include a set of attributes that represent the data, valid operations on attributes, categorization data attributes, and types of attributes."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -175,3 +175,6 @@ Entities include a set of attributes that represent the data that can be include
  [Calculated and Rollup Attributes](calculated-rollup-attributes.md)   
  [Sample: Retrieve Valid Status Transitions](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveValidTransitions)   
  [Sample: Set and retrieve entity images](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/SetRetrieveImages)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

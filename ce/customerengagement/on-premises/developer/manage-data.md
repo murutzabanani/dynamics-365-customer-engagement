@@ -3,7 +3,7 @@ title: "Manage your data (Developer Guide for Dynamics 365 Customer Engagement (
 description: "Features that enable efficient data management, including the ability to import new data, audit data changes, detect duplicates and delete data in bulk."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -64,3 +64,6 @@ search.audienceType:
  [Sample code directory](sample-code-directory.md)  
   
  [Programming Reference](programming-reference.md)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

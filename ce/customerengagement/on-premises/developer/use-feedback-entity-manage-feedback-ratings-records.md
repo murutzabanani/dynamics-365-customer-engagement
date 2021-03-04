@@ -3,7 +3,7 @@ title: "Use the Feedback entity to manage feedback and ratings for records (Deve
 description: "Learn about the feedback entity to obtain feedback and ratings for the records."
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -66,3 +66,6 @@ Improve your products and services by enabling users to provide feedback and rat
 ### See also  
  [Work with knowledge articles in Customer Engagement (on-premises)](work-knowledge-articles.md)
  [Service entities in Customer Engagement (on-premises)](service-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

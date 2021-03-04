@@ -3,7 +3,7 @@ title: "Sample: Clone product records (Developer Guide for Dynamics 365 Customer
 description: "Sample demonstrates how to clone a product record."
 ms.custom: 
 ms.date: 06/11/2018
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -38,3 +38,6 @@ This sample code is for Dynamics 365 Customer Engagement(on-premises). [Download
 ### See also  
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

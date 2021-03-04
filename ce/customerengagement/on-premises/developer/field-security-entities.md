@@ -3,7 +3,7 @@ title: "Field security entities (Developer Guide for Dynamics 365 Customer Engag
 description: "Learn about using field security entities to apply field-level security, which restricts field access to specified users and teams."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -109,3 +109,6 @@ You use field security entities to apply field-level security, which restricts f
  [Sample: Retrieve Field Permissions](sample-retrieve-field-permissions.md)   
  [Sample: Enable Field Security For An Entity](sample-enable-field-security-entity.md)   
  [Sample: Retrieve Field Sharing Records](sample-retrieve-field-sharing-records.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

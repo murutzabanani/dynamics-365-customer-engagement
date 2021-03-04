@@ -3,7 +3,7 @@ title: "Quote, order, and invoice entities (Developer Guide for Dynamics 365 Cus
 description: "Learn about quote, sales order (order), and invoice building."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -71,3 +71,6 @@ Dynamics 365 Customer Engagement (on-premises) supports robust *quote*, *sales o
  [Opportunity Entities](opportunity-entities.md)   
  [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Set default price level for opportunity, quote, order, invoice](set-default-price-level-for-opportunity-quote-order-invoice.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

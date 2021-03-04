@@ -2,7 +2,7 @@
 title: "Calculated and rollup attributes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -185,3 +185,6 @@ search.audienceType:
  [Introduction to entity attributes](introduction-entity-attributes.md)   
  [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx)   
  [Define rollup fields](https://technet.microsoft.com/library/dn832103.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

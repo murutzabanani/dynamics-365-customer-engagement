@@ -3,7 +3,7 @@ title: "Activity feeds entities (Developer Guide for Dynamics 365 Customer Engag
 description: "The activity feeds help promote internal collaboration through quick and short updates in Dynamics 365 Customer Engagement (on-premises). The activity feeds do not replace emails or in-person communications."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -85,3 +85,6 @@ The *activity feeds* help promote internal collaboration through quick and short
  [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
   
  [Customer Entities (Account, Contact)](customer-entities-account-contact.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

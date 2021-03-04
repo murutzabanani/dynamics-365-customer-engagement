@@ -3,7 +3,7 @@ title: "Entity relationship eligibility (Developer Guide for Dynamics 365 Custom
 description: "The article lists the messages that you can use to determine whether entities can participate in entity relationships"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -43,3 +43,6 @@ Before you create an entity relationship you should confirm whether the entity i
  [Entity Relationship Messages](entity-relationship-metadata-messages.md)   
  [Entity Relationship Behavior](entity-relationship-behavior.md)   
  [Create one-to-many or many-to-one entity relationships overview](/powerapps/maker/common-data-service/create-edit-1n-relationships)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

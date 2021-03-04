@@ -3,7 +3,7 @@ title: "Use localized labels with ribbons (Developer Guide for Dynamics 365 Cust
 description: "Learn about using localized labels with ribbons."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -63,3 +63,6 @@ ToolTipDescription="$LocLabels:MyISV.account.SendToOtherSystem.ToolTip"
  [Export, Prepare to Edit, and Import the Ribbon](export-prepare-edit-import-ribbon.md)   
  [Use Localized Labels with Ribbons](use-localized-labels-ribbons.md)   
  [Define Ribbon Commands](define-ribbon-commands.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

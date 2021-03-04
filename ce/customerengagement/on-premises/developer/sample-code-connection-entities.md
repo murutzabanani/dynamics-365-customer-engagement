@@ -3,7 +3,7 @@ title: "Sample code for connection entities (Developer Guide for Dynamics 365 Cu
 decription: Sample code for connection entities contain the code examples that show how to use the connection entities
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -45,3 +45,6 @@ This section contains the code examples that show how to use the connection enti
  [Connection Entities](connection-entities.md)  
   
  [Customer Relationship Entities](customer-relationship-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

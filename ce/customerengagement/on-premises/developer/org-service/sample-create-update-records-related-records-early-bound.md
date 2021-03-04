@@ -12,7 +12,7 @@ ms.assetid: 72eeafd8-8dd5-40af-9e3d-575534d60f61
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
@@ -62,3 +62,5 @@ Checks for the current version of the org.
 ### Clean up
 
 Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

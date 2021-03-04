@@ -3,7 +3,7 @@ title: "Customize entity attribute metadata (Developer Guide for Dynamics 365 Cu
 description: "Learn about the AttributeMetadata class to retrieve existing attributes. This class is returned by the RetrieveAttributeRequest message. The AttributeMetadata class inherits from the abstract MetadataBase class. "
 ms.custom: 
 ms.date: 11/03/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -89,3 +89,6 @@ Use the specific class for each attribute type with the `CreateAttribute` messag
  [Sample: Dump Attribute Metadata to a File](org-service/sample-dump-attribute-metadata-file.md)   
  [Sample: Dump Attribute Picklist Metadata to a File](org-service/sample-dump-attribute-picklist-metadata-file.md)   
  [Sample: Convert date and time behavior](org-service/sample-convert-date-time-behavior.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

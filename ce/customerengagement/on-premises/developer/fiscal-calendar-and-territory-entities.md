@@ -3,7 +3,7 @@ title: "Fiscal calendar and territory entities (Developer Guide for Dynamics 365
 description: "Learn about fiscal calendar and territory entities. Depending on the fiscal year settings that are defined by the Organization entity, you can use one of the following fiscal calendar entities to set the sales quotas: AnnualFiscalCalendar, FixedMonthlyFiscalCalendar, MonthlyFiscalCalendar, QuarterlyFiscalCalendar, and SemiAnnualFiscalCalendar."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -45,3 +45,6 @@ You can use the *fiscal calendar* entities and the *territory* entity to track s
  [Goal Management Entities](goal-management-entities.md)   
  [Organization Entities](organization-entities.md)   
  [Queue Entities](queue-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

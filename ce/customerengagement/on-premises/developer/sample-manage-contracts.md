@@ -3,7 +3,7 @@ title: "Sample: Manage contracts (Developer Guide for Dynamics 365 Customer Enga
 description: "This sample demonstrates how to create and manage contracts"
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -39,3 +39,6 @@ This sample code is for the Dynamics 365 Customer Engagement (on-premises) platf
   
 ### See also  
  [Contract Entities](contract-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

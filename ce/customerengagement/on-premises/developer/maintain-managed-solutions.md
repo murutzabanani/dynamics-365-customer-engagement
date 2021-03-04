@@ -2,7 +2,7 @@
 title: "Maintain managed solutions (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 04/02/2020
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -63,3 +63,6 @@ Before you release your managed solution you should consider how you will mainta
 ### See also  
  [Plan For Solution Development](plan-solution-development.md)   
  [Publish your app on AppSource](publish-app-appsource.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
